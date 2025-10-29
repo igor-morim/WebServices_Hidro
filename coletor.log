@@ -1,0 +1,1960 @@
+2025-10-28 00:24:20,667 - INFO - ✅ Arquivo de estações carregado: 73 estações encontradas
+2025-10-28 00:24:20,668 - INFO - 🏞️  Total de estações para processar: 45
+2025-10-28 00:24:20,672 - INFO - ✅ Tabelas e índices verificados/criados
+2025-10-28 00:24:20,679 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 00:24:20,679 - INFO - ⏰ INICIANDO AGENDADOR - Coleta a cada 15 minutos
+2025-10-28 00:24:20,679 - INFO - 🚀 Executando coleta inicial...
+2025-10-28 00:24:20,680 - INFO - 🚀 INICIANDO COLETA AUTOMÁTICA...
+2025-10-28 00:24:20,686 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 00:24:20,686 - INFO - 📊 Progresso da Coleta:
+2025-10-28 00:24:20,689 - INFO - 🔍 Processando Goiatins (23250000)...
+2025-10-28 00:24:20,690 - INFO - 🔍 Processando UHE Estreito Rio Manoel Alves Grande (23249000)...
+2025-10-28 00:24:21,191 - INFO -    📋 287 registros processados, 287 com dados válidos
+2025-10-28 00:24:21,195 - INFO -    ✅ UHE Estreito Rio Manoel Alves Grande: 0/287 registros inseridos
+2025-10-28 00:24:21,197 - INFO - 🔍 Processando UHE Estreito - Montante 01 (23310000)...
+2025-10-28 00:24:21,261 - INFO -    📋 287 registros processados, 287 com dados válidos
+2025-10-28 00:24:21,264 - INFO -    ✅ Goiatins: 0/287 registros inseridos
+2025-10-28 00:24:21,266 - INFO - 🔍 Processando UHE Estreito Rio Farinha (23466000)...
+2025-10-28 00:24:21,694 - INFO -    📋 283 registros processados, 283 com dados válidos
+2025-10-28 00:24:21,698 - INFO -    ✅ UHE Estreito - Montante 01: 0/283 registros inseridos
+2025-10-28 00:24:21,700 - INFO - 🔍 Processando UHE Estreito Barramento (23490000)...
+2025-10-28 00:24:21,879 - INFO -    📋 287 registros processados, 287 com dados válidos
+2025-10-28 00:24:21,882 - INFO -    ✅ UHE Estreito Rio Farinha: 0/287 registros inseridos
+2025-10-28 00:24:21,884 - INFO - 🔍 Processando UHE Estreito Jusante (23495000)...
+2025-10-28 00:24:22,108 - INFO -    📋 72 registros processados, 72 com dados válidos
+2025-10-28 00:24:22,112 - INFO -    ✅ UHE Estreito Barramento: 0/72 registros inseridos
+2025-10-28 00:24:22,113 - INFO - 🔍 Processando Descarreto (23700000)...
+2025-10-28 00:24:22,440 - INFO -    📋 287 registros processados, 287 com dados válidos
+2025-10-28 00:24:22,444 - INFO -    ✅ UHE Estreito Jusante: 0/287 registros inseridos
+2025-10-28 00:24:22,446 - INFO - 🔍 Processando Tucuruí Montande II (23790000)...
+2025-10-28 00:24:22,680 - INFO -    📋 286 registros processados, 286 com dados válidos
+2025-10-28 00:24:22,683 - INFO -    ✅ Descarreto: 0/286 registros inseridos
+2025-10-28 00:24:22,685 - INFO - 🔍 Processando Fazenda Rural Zebu (32540000)...
+2025-10-28 00:24:23,089 - INFO -    📋 73 registros processados, 73 com dados válidos
+2025-10-28 00:24:23,093 - INFO -    ✅ Tucuruí Montande II: 0/73 registros inseridos
+2025-10-28 00:24:23,094 - INFO - 🔍 Processando Alto Bonito (32620000)...
+2025-10-28 00:24:24,193 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:24:24,197 - INFO -    ✅ Fazenda Rural Zebu: 0/288 registros inseridos
+2025-10-28 00:24:24,199 - INFO - 🔍 Processando Barra do Corda (33250000)...
+2025-10-28 00:24:25,357 - INFO -    📋 289 registros processados, 289 com dados válidos
+2025-10-28 00:24:25,362 - INFO -    ✅ Alto Bonito: 4/289 registros inseridos
+2025-10-28 00:24:25,363 - INFO - 🔍 Processando Santa Vitória (33260010)...
+2025-10-28 00:24:26,193 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:24:26,195 - INFO -    ✅ Barra do Corda: 0/288 registros inseridos
+2025-10-28 00:24:26,198 - INFO - 🔍 Processando Joselândia (33273010)...
+2025-10-28 00:24:27,193 - INFO -    📋 284 registros processados, 280 com dados válidos
+2025-10-28 00:24:27,196 - INFO -    ✅ Santa Vitória: 0/284 registros inseridos
+2025-10-28 00:24:27,198 - INFO - 🔍 Processando Pedreiras II (33281000)...
+2025-10-28 00:24:28,295 - INFO -    📋 284 registros processados, 284 com dados válidos
+2025-10-28 00:24:28,299 - INFO -    ✅ Joselândia: 0/284 registros inseridos
+2025-10-28 00:24:28,302 - INFO - 🔍 Processando São Luiz Gonzaga (33286000)...
+2025-10-28 00:24:29,258 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:24:29,262 - INFO -    ✅ Pedreiras II: 0/288 registros inseridos
+2025-10-28 00:24:29,263 - INFO - 🔍 Processando Bacabal (33290000)...
+2025-10-28 00:24:30,189 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:24:30,193 - INFO -    ✅ São Luiz Gonzaga: 0/288 registros inseridos
+2025-10-28 00:24:30,195 - INFO - 🔍 Processando Grajaú II (33321000)...
+2025-10-28 00:24:31,186 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:24:31,189 - INFO -    ✅ Bacabal: 0/288 registros inseridos
+2025-10-28 00:24:31,192 - INFO - 🔍 Processando Aratoí Grande (33380010)...
+2025-10-28 00:24:32,257 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:24:32,261 - INFO -    ✅ Grajaú II: 0/288 registros inseridos
+2025-10-28 00:24:32,264 - INFO - 🔍 Processando Mirador (33420000)...
+2025-10-28 00:24:33,187 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:24:33,190 - INFO -    ✅ Aratoí Grande: 0/288 registros inseridos
+2025-10-28 00:24:33,193 - INFO - 🔍 Processando Colinas (33480000)...
+2025-10-28 00:24:34,258 - INFO -    📋 284 registros processados, 284 com dados válidos
+2025-10-28 00:24:34,262 - INFO -    ✅ Mirador: 0/284 registros inseridos
+2025-10-28 00:24:34,264 - INFO - 🔍 Processando Montevidéu (33530000)...
+2025-10-28 00:24:35,300 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:24:35,304 - INFO -    ✅ Colinas: 0/288 registros inseridos
+2025-10-28 00:24:35,306 - INFO - 🔍 Processando Caxias (33550000)...
+2025-10-28 00:24:36,205 - INFO -    📋 284 registros processados, 284 com dados válidos
+2025-10-28 00:24:36,208 - INFO -    ✅ Montevidéu: 0/284 registros inseridos
+2025-10-28 00:24:36,210 - INFO - 🔍 Processando Codó (33590000)...
+2025-10-28 00:24:37,012 - WARNING -    ⚠️  Nenhum dado encontrado para 33550000
+2025-10-28 00:24:37,014 - INFO - 🔍 Processando Coroatá (33630000)...
+2025-10-28 00:24:38,188 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:24:38,192 - INFO -    ✅ Codó: 0/288 registros inseridos
+2025-10-28 00:24:38,194 - INFO - 🔍 Processando Cantanhede (33680000)...
+2025-10-28 00:24:39,192 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:24:39,195 - INFO -    ✅ Coroatá: 0/288 registros inseridos
+2025-10-28 00:24:39,198 - INFO - 🔍 Processando Itapecuru-Mirim (33690100)...
+2025-10-28 00:24:40,186 - INFO -    📋 260 registros processados, 260 com dados válidos
+2025-10-28 00:24:40,190 - INFO -    ✅ Cantanhede: 0/260 registros inseridos
+2025-10-28 00:24:40,191 - INFO - 🔍 Processando Munim (33730000)...
+2025-10-28 00:24:41,187 - INFO -    📋 284 registros processados, 284 com dados válidos
+2025-10-28 00:24:41,191 - INFO -    ✅ Itapecuru-Mirim: 0/284 registros inseridos
+2025-10-28 00:24:41,193 - INFO - 🔍 Processando São Benedito (33760005)...
+2025-10-28 00:24:42,188 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:24:42,192 - INFO -    ✅ Munim: 0/288 registros inseridos
+2025-10-28 00:24:42,193 - INFO - 🔍 Processando Vargem Grande (33770001)...
+2025-10-28 00:24:43,279 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:24:43,281 - INFO -    ✅ São Benedito: 0/288 registros inseridos
+2025-10-28 00:24:43,284 - INFO - 🔍 Processando Fazenda União (34010000)...
+2025-10-28 00:24:44,179 - INFO -    📋 228 registros processados, 228 com dados válidos
+2025-10-28 00:24:44,182 - INFO -    ✅ Vargem Grande: 0/228 registros inseridos
+2025-10-28 00:24:44,185 - INFO - 🔍 Processando UHE Boa Esperança - Montante 02 (34020980)...
+2025-10-28 00:24:45,006 - WARNING -    ⚠️  Nenhum dado encontrado para 34010000
+2025-10-28 00:24:45,007 - INFO - 🔍 Processando Alto Parnaíba (34020000)...
+2025-10-28 00:24:46,086 - INFO -    📋 70 registros processados, 70 com dados válidos
+2025-10-28 00:24:46,088 - INFO -    ✅ UHE Boa Esperança - Montante 02: 0/70 registros inseridos
+2025-10-28 00:24:46,091 - INFO - 🔍 Processando Fazenda Paracati II (34040500)...
+2025-10-28 00:24:47,185 - INFO -    📋 268 registros processados, 268 com dados válidos
+2025-10-28 00:24:47,188 - INFO -    ✅ Alto Parnaíba: 0/268 registros inseridos
+2025-10-28 00:24:47,190 - INFO - 🔍 Processando UHE Boa Esperança - Montante 01 (34059900)...
+2025-10-28 00:24:48,188 - INFO -    📋 280 registros processados, 280 com dados válidos
+2025-10-28 00:24:48,191 - INFO -    ✅ Fazenda Paracati II: 0/280 registros inseridos
+2025-10-28 00:24:48,194 - INFO - 🔍 Processando Ribeiro Gonçalves (34060000)...
+2025-10-28 00:24:49,089 - INFO -    📋 70 registros processados, 70 com dados válidos
+2025-10-28 00:24:49,093 - INFO -    ✅ UHE Boa Esperança - Montante 01: 0/70 registros inseridos
+2025-10-28 00:24:49,094 - INFO - 🔍 Processando Sítio Velho (34070000)...
+2025-10-28 00:24:50,185 - INFO -    📋 284 registros processados, 284 com dados válidos
+2025-10-28 00:24:50,189 - INFO -    ✅ Ribeiro Gonçalves: 0/284 registros inseridos
+2025-10-28 00:24:50,192 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 02 (34129980)...
+2025-10-28 00:24:51,186 - INFO -    📋 276 registros processados, 276 com dados válidos
+2025-10-28 00:24:51,189 - INFO -    ✅ Sítio Velho: 0/276 registros inseridos
+2025-10-28 00:24:51,192 - INFO - 🔍 Processando Balsas (34130000)...
+2025-10-28 00:24:52,006 - WARNING -    ⚠️  Nenhum dado encontrado para 34129980
+2025-10-28 00:24:52,007 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 01 (34160900)...
+2025-10-28 00:24:53,257 - INFO -    📋 284 registros processados, 284 com dados válidos
+2025-10-28 00:24:53,262 - INFO -    ✅ Balsas: 0/284 registros inseridos
+2025-10-28 00:24:53,263 - INFO - 🔍 Processando São Félix de Balsas (34170000)...
+2025-10-28 00:24:54,084 - INFO -    📋 73 registros processados, 73 com dados válidos
+2025-10-28 00:24:54,089 - INFO -    ✅ UHE Boa Esperança - Balsas 01: 1/73 registros inseridos
+2025-10-28 00:24:54,091 - INFO - 🔍 Processando Barão de Grajaú (34311000)...
+2025-10-28 00:24:55,230 - INFO -    📋 285 registros processados, 285 com dados válidos
+2025-10-28 00:24:55,235 - INFO -    ✅ São Félix de Balsas: 4/285 registros inseridos
+2025-10-28 00:24:55,237 - INFO - 🔍 Processando Fazenda Veneza (34660000)...
+2025-10-28 00:24:56,186 - INFO -    📋 281 registros processados, 281 com dados válidos
+2025-10-28 00:24:56,189 - INFO -    ✅ Barão de Grajaú: 0/281 registros inseridos
+2025-10-28 00:24:56,191 - INFO - 🔍 Processando Teresina - CHESF (34690000)...
+2025-10-28 00:24:57,188 - INFO -    📋 284 registros processados, 284 com dados válidos
+2025-10-28 00:24:57,193 - INFO -    ✅ Fazenda Veneza: 0/284 registros inseridos
+2025-10-28 00:24:57,194 - INFO - 🔍 Processando Coelho Neto (34820000)...
+2025-10-28 00:24:58,189 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:24:58,193 - INFO -    ✅ Teresina - CHESF: 0/288 registros inseridos
+2025-10-28 00:24:58,196 - INFO - 🔍 Processando Luzilândia (34879500)...
+2025-10-28 00:24:59,259 - INFO -    📋 284 registros processados, 284 com dados válidos
+2025-10-28 00:24:59,262 - INFO -    ✅ Coelho Neto: 0/284 registros inseridos
+2025-10-28 00:25:00,194 - INFO -    📋 287 registros processados, 287 com dados válidos
+2025-10-28 00:25:00,197 - INFO -    ✅ Luzilândia: 0/287 registros inseridos
+2025-10-28 00:25:00,203 - INFO - 
+============================================================
+2025-10-28 00:25:00,203 - INFO - 🎉 COLETA CONCLUÍDA!
+2025-10-28 00:25:00,203 - INFO - 📈 Estações processadas: 45
+2025-10-28 00:25:00,203 - INFO - 📊 Registros coletados: 10829
+2025-10-28 00:25:00,203 - INFO - 💾 Registros inseridos: 9
+2025-10-28 00:25:00,203 - INFO - 📈 Taxa de sucesso: 0.1%
+2025-10-28 00:25:00,203 - INFO - ⏱️  Tempo total: 39.52 segundos
+2025-10-28 00:25:00,203 - INFO - ⚡ Velocidade: 0.2 registros/segundo
+2025-10-28 00:25:00,249 - INFO - 💽 Total de registros no banco: 2344395
+2025-10-28 00:25:00,377 - INFO - 🏞️  Estações com dados no banco: 45
+2025-10-28 00:25:00,377 - ERROR - ⚠️  Não foi possível verificar estatísticas do banco: no such column: data_insercao
+2025-10-28 00:39:21,650 - INFO - 🚀 INICIANDO COLETA AUTOMÁTICA...
+2025-10-28 00:39:21,657 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 00:39:21,657 - INFO - 📊 Progresso da Coleta:
+2025-10-28 00:39:21,659 - INFO - 🔍 Processando Goiatins (23250000)...
+2025-10-28 00:39:21,659 - INFO - 🔍 Processando UHE Estreito Rio Manoel Alves Grande (23249000)...
+2025-10-28 00:39:22,156 - INFO -    📋 287 registros processados, 287 com dados válidos
+2025-10-28 00:39:22,243 - INFO -    📋 287 registros processados, 287 com dados válidos
+2025-10-28 00:39:22,244 - INFO -    ✅ UHE Estreito Rio Manoel Alves Grande: 0/287 registros inseridos
+2025-10-28 00:39:22,247 - INFO - 🔍 Processando UHE Estreito - Montante 01 (23310000)...
+2025-10-28 00:39:22,255 - INFO -    ✅ Goiatins: 0/287 registros inseridos
+2025-10-28 00:39:22,257 - INFO - 🔍 Processando UHE Estreito Rio Farinha (23466000)...
+2025-10-28 00:39:22,765 - INFO -    📋 287 registros processados, 287 com dados válidos
+2025-10-28 00:39:22,787 - INFO -    📋 287 registros processados, 287 com dados válidos
+2025-10-28 00:39:22,789 - INFO -    ✅ UHE Estreito Rio Farinha: 0/287 registros inseridos
+2025-10-28 00:39:22,792 - INFO - 🔍 Processando UHE Estreito Barramento (23490000)...
+2025-10-28 00:39:22,795 - INFO -    ✅ UHE Estreito - Montante 01: 4/287 registros inseridos
+2025-10-28 00:39:22,798 - INFO - 🔍 Processando UHE Estreito Jusante (23495000)...
+2025-10-28 00:39:23,178 - INFO -    📋 72 registros processados, 72 com dados válidos
+2025-10-28 00:39:23,181 - INFO -    ✅ UHE Estreito Barramento: 0/72 registros inseridos
+2025-10-28 00:39:23,182 - INFO - 🔍 Processando Descarreto (23700000)...
+2025-10-28 00:39:23,356 - INFO -    📋 287 registros processados, 287 com dados válidos
+2025-10-28 00:39:23,360 - INFO -    ✅ UHE Estreito Jusante: 0/287 registros inseridos
+2025-10-28 00:39:23,362 - INFO - 🔍 Processando Tucuruí Montande II (23790000)...
+2025-10-28 00:39:23,672 - INFO -    📋 290 registros processados, 290 com dados válidos
+2025-10-28 00:39:23,676 - INFO -    ✅ Descarreto: 4/290 registros inseridos
+2025-10-28 00:39:23,677 - INFO - 🔍 Processando Fazenda Rural Zebu (32540000)...
+2025-10-28 00:39:24,055 - INFO -    📋 73 registros processados, 73 com dados válidos
+2025-10-28 00:39:24,058 - INFO -    ✅ Tucuruí Montande II: 0/73 registros inseridos
+2025-10-28 00:39:24,061 - INFO - 🔍 Processando Alto Bonito (32620000)...
+2025-10-28 00:39:25,157 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:39:25,162 - INFO -    ✅ Fazenda Rural Zebu: 0/288 registros inseridos
+2025-10-28 00:39:25,164 - INFO - 🔍 Processando Barra do Corda (33250000)...
+2025-10-28 00:39:26,202 - INFO -    📋 289 registros processados, 289 com dados válidos
+2025-10-28 00:39:26,207 - INFO -    ✅ Alto Bonito: 0/289 registros inseridos
+2025-10-28 00:39:26,209 - INFO - 🔍 Processando Santa Vitória (33260010)...
+2025-10-28 00:39:27,172 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:39:27,174 - INFO -    ✅ Barra do Corda: 0/288 registros inseridos
+2025-10-28 00:39:27,177 - INFO - 🔍 Processando Joselândia (33273010)...
+2025-10-28 00:39:28,155 - INFO -    📋 284 registros processados, 280 com dados válidos
+2025-10-28 00:39:28,159 - INFO -    ✅ Santa Vitória: 0/284 registros inseridos
+2025-10-28 00:39:28,161 - INFO - 🔍 Processando Pedreiras II (33281000)...
+2025-10-28 00:39:29,154 - INFO -    📋 284 registros processados, 284 com dados válidos
+2025-10-28 00:39:29,158 - INFO -    ✅ Joselândia: 0/284 registros inseridos
+2025-10-28 00:39:29,160 - INFO - 🔍 Processando São Luiz Gonzaga (33286000)...
+2025-10-28 00:39:30,158 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:39:30,162 - INFO -    ✅ Pedreiras II: 0/288 registros inseridos
+2025-10-28 00:39:30,164 - INFO - 🔍 Processando Bacabal (33290000)...
+2025-10-28 00:39:31,154 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:39:31,158 - INFO -    ✅ São Luiz Gonzaga: 0/288 registros inseridos
+2025-10-28 00:39:31,160 - INFO - 🔍 Processando Grajaú II (33321000)...
+2025-10-28 00:39:32,147 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:39:32,156 - INFO -    ✅ Bacabal: 0/288 registros inseridos
+2025-10-28 00:39:32,158 - INFO - 🔍 Processando Aratoí Grande (33380010)...
+2025-10-28 00:39:33,266 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:39:33,271 - INFO -    ✅ Grajaú II: 0/288 registros inseridos
+2025-10-28 00:39:33,273 - INFO - 🔍 Processando Mirador (33420000)...
+2025-10-28 00:39:34,155 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:39:34,160 - INFO -    ✅ Aratoí Grande: 0/288 registros inseridos
+2025-10-28 00:39:34,162 - INFO - 🔍 Processando Colinas (33480000)...
+2025-10-28 00:39:35,222 - INFO -    📋 284 registros processados, 284 com dados válidos
+2025-10-28 00:39:35,225 - INFO -    ✅ Mirador: 0/284 registros inseridos
+2025-10-28 00:39:35,228 - INFO - 🔍 Processando Montevidéu (33530000)...
+2025-10-28 00:39:36,167 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:39:36,172 - INFO -    ✅ Colinas: 0/288 registros inseridos
+2025-10-28 00:39:36,174 - INFO - 🔍 Processando Caxias (33550000)...
+2025-10-28 00:39:37,151 - INFO -    📋 284 registros processados, 284 com dados válidos
+2025-10-28 00:39:37,155 - INFO -    ✅ Montevidéu: 0/284 registros inseridos
+2025-10-28 00:39:37,158 - INFO - 🔍 Processando Codó (33590000)...
+2025-10-28 00:39:37,973 - WARNING -    ⚠️  Nenhum dado encontrado para 33550000
+2025-10-28 00:39:37,974 - INFO - 🔍 Processando Coroatá (33630000)...
+2025-10-28 00:39:39,148 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:39:39,152 - INFO -    ✅ Codó: 0/288 registros inseridos
+2025-10-28 00:39:39,154 - INFO - 🔍 Processando Cantanhede (33680000)...
+2025-10-28 00:39:40,152 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:39:40,156 - INFO -    ✅ Coroatá: 0/288 registros inseridos
+2025-10-28 00:39:40,158 - INFO - 🔍 Processando Itapecuru-Mirim (33690100)...
+2025-10-28 00:39:41,189 - INFO -    📋 260 registros processados, 260 com dados válidos
+2025-10-28 00:39:41,192 - INFO -    ✅ Cantanhede: 0/260 registros inseridos
+2025-10-28 00:39:41,195 - INFO - 🔍 Processando Munim (33730000)...
+2025-10-28 00:39:42,270 - INFO -    📋 284 registros processados, 284 com dados válidos
+2025-10-28 00:39:42,272 - INFO -    ✅ Itapecuru-Mirim: 0/284 registros inseridos
+2025-10-28 00:39:42,275 - INFO - 🔍 Processando São Benedito (33760005)...
+2025-10-28 00:39:43,221 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:39:43,225 - INFO -    ✅ Munim: 0/288 registros inseridos
+2025-10-28 00:39:43,227 - INFO - 🔍 Processando Vargem Grande (33770001)...
+2025-10-28 00:39:44,221 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:39:44,225 - INFO -    ✅ São Benedito: 0/288 registros inseridos
+2025-10-28 00:39:44,226 - INFO - 🔍 Processando Fazenda União (34010000)...
+2025-10-28 00:39:45,147 - INFO -    📋 228 registros processados, 228 com dados válidos
+2025-10-28 00:39:45,150 - INFO -    ✅ Vargem Grande: 0/228 registros inseridos
+2025-10-28 00:39:45,153 - INFO - 🔍 Processando UHE Boa Esperança - Montante 02 (34020980)...
+2025-10-28 00:39:45,971 - WARNING -    ⚠️  Nenhum dado encontrado para 34010000
+2025-10-28 00:39:45,972 - INFO - 🔍 Processando Alto Parnaíba (34020000)...
+2025-10-28 00:39:47,057 - INFO -    📋 71 registros processados, 71 com dados válidos
+2025-10-28 00:39:47,061 - INFO -    ✅ UHE Boa Esperança - Montante 02: 1/71 registros inseridos
+2025-10-28 00:39:47,063 - INFO - 🔍 Processando Fazenda Paracati II (34040500)...
+2025-10-28 00:39:48,148 - INFO -    📋 268 registros processados, 268 com dados válidos
+2025-10-28 00:39:48,151 - INFO -    ✅ Alto Parnaíba: 0/268 registros inseridos
+2025-10-28 00:39:48,153 - INFO - 🔍 Processando UHE Boa Esperança - Montante 01 (34059900)...
+2025-10-28 00:39:49,153 - INFO -    📋 280 registros processados, 280 com dados válidos
+2025-10-28 00:39:49,158 - INFO -    ✅ Fazenda Paracati II: 0/280 registros inseridos
+2025-10-28 00:39:49,160 - INFO - 🔍 Processando Ribeiro Gonçalves (34060000)...
+2025-10-28 00:39:50,055 - INFO -    📋 71 registros processados, 71 com dados válidos
+2025-10-28 00:39:50,059 - INFO -    ✅ UHE Boa Esperança - Montante 01: 1/71 registros inseridos
+2025-10-28 00:39:50,062 - INFO - 🔍 Processando Sítio Velho (34070000)...
+2025-10-28 00:39:51,266 - INFO -    📋 284 registros processados, 284 com dados válidos
+2025-10-28 00:39:51,270 - INFO -    ✅ Ribeiro Gonçalves: 0/284 registros inseridos
+2025-10-28 00:39:51,273 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 02 (34129980)...
+2025-10-28 00:39:52,153 - INFO -    📋 276 registros processados, 276 com dados válidos
+2025-10-28 00:39:52,157 - INFO -    ✅ Sítio Velho: 0/276 registros inseridos
+2025-10-28 00:39:52,160 - INFO - 🔍 Processando Balsas (34130000)...
+2025-10-28 00:39:52,976 - WARNING -    ⚠️  Nenhum dado encontrado para 34129980
+2025-10-28 00:39:52,977 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 01 (34160900)...
+2025-10-28 00:39:54,163 - INFO -    📋 284 registros processados, 284 com dados válidos
+2025-10-28 00:39:54,167 - INFO -    ✅ Balsas: 0/284 registros inseridos
+2025-10-28 00:39:54,169 - INFO - 🔍 Processando São Félix de Balsas (34170000)...
+2025-10-28 00:39:55,053 - INFO -    📋 73 registros processados, 73 com dados válidos
+2025-10-28 00:39:55,056 - INFO -    ✅ UHE Boa Esperança - Balsas 01: 0/73 registros inseridos
+2025-10-28 00:39:55,059 - INFO - 🔍 Processando Barão de Grajaú (34311000)...
+2025-10-28 00:39:56,224 - INFO -    📋 285 registros processados, 285 com dados válidos
+2025-10-28 00:39:56,228 - INFO -    ✅ São Félix de Balsas: 0/285 registros inseridos
+2025-10-28 00:39:56,230 - INFO - 🔍 Processando Fazenda Veneza (34660000)...
+2025-10-28 00:39:57,156 - INFO -    📋 281 registros processados, 281 com dados válidos
+2025-10-28 00:39:57,159 - INFO -    ✅ Barão de Grajaú: 0/281 registros inseridos
+2025-10-28 00:39:57,162 - INFO - 🔍 Processando Teresina - CHESF (34690000)...
+2025-10-28 00:39:58,224 - INFO -    📋 284 registros processados, 284 com dados válidos
+2025-10-28 00:39:58,228 - INFO -    ✅ Fazenda Veneza: 0/284 registros inseridos
+2025-10-28 00:39:58,230 - INFO - 🔍 Processando Coelho Neto (34820000)...
+2025-10-28 00:39:59,158 - INFO -    📋 288 registros processados, 288 com dados válidos
+2025-10-28 00:39:59,161 - INFO -    ✅ Teresina - CHESF: 0/288 registros inseridos
+2025-10-28 00:39:59,163 - INFO - 🔍 Processando Luzilândia (34879500)...
+2025-10-28 00:40:00,270 - INFO -    📋 284 registros processados, 284 com dados válidos
+2025-10-28 00:40:00,273 - INFO -    ✅ Coelho Neto: 0/284 registros inseridos
+2025-10-28 00:40:01,158 - INFO -    📋 291 registros processados, 291 com dados válidos
+2025-10-28 00:40:01,162 - INFO -    ✅ Luzilândia: 4/291 registros inseridos
+2025-10-28 00:40:01,168 - INFO - 
+============================================================
+2025-10-28 00:40:01,168 - INFO - 🎉 COLETA CONCLUÍDA!
+2025-10-28 00:40:01,168 - INFO - 📈 Estações processadas: 45
+2025-10-28 00:40:01,168 - INFO - 📊 Registros coletados: 10843
+2025-10-28 00:40:01,168 - INFO - 💾 Registros inseridos: 14
+2025-10-28 00:40:01,168 - INFO - 📈 Taxa de sucesso: 0.1%
+2025-10-28 00:40:01,168 - INFO - ⏱️  Tempo total: 39.51 segundos
+2025-10-28 00:40:01,169 - INFO - ⚡ Velocidade: 0.4 registros/segundo
+2025-10-28 00:40:01,215 - INFO - 💽 Total de registros no banco: 2344409
+2025-10-28 00:40:01,348 - INFO - 🏞️  Estações com dados no banco: 45
+2025-10-28 00:40:01,349 - ERROR - ⚠️  Não foi possível verificar estatísticas do banco: no such column: data_insercao
+2025-10-28 00:40:37,039 - INFO - 🛑 Coletor interrompido pelo usuário
+2025-10-28 00:40:44,788 - INFO - ✅ Arquivo de estações carregado: 73 estações encontradas
+2025-10-28 00:40:44,789 - INFO - 🏞️  Total de estações para processar: 45
+2025-10-28 00:40:44,790 - INFO - ✅ Tabelas e índices verificados/criados
+2025-10-28 00:40:44,797 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 00:40:44,797 - INFO - ⏰ INICIANDO AGENDADOR - Coleta a cada 15 minutos
+2025-10-28 00:40:44,797 - INFO - 🚀 Executando coleta inicial...
+2025-10-28 00:40:44,797 - INFO - 🚀 INICIANDO COLETA AUTOMÁTICA...
+2025-10-28 00:40:44,805 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 00:40:44,805 - INFO - 📊 Progresso da Coleta:
+2025-10-28 00:40:44,808 - INFO - 🔍 Processando Goiatins (23250000)...
+2025-10-28 00:40:44,809 - INFO - 🔍 Processando UHE Estreito Rio Manoel Alves Grande (23249000)...
+2025-10-28 00:40:45,291 - INFO -    📋 191 registros processados, 191 com dados válidos
+2025-10-28 00:40:45,324 - INFO -    📋 191 registros processados, 191 com dados válidos
+2025-10-28 00:40:45,339 - INFO -    ✅ UHE Estreito Rio Manoel Alves Grande: 0/191 registros inseridos
+2025-10-28 00:40:45,341 - INFO - 🔍 Processando UHE Estreito - Montante 01 (23310000)...
+2025-10-28 00:40:45,355 - INFO -    ✅ Goiatins: 0/191 registros inseridos
+2025-10-28 00:40:45,357 - INFO - 🔍 Processando UHE Estreito Rio Farinha (23466000)...
+2025-10-28 00:40:45,851 - INFO -    📋 191 registros processados, 191 com dados válidos
+2025-10-28 00:40:45,854 - INFO -    ✅ UHE Estreito Rio Farinha: 0/191 registros inseridos
+2025-10-28 00:40:45,857 - INFO - 🔍 Processando UHE Estreito Barramento (23490000)...
+2025-10-28 00:40:45,881 - INFO -    📋 191 registros processados, 191 com dados válidos
+2025-10-28 00:40:45,885 - INFO -    ✅ UHE Estreito - Montante 01: 0/191 registros inseridos
+2025-10-28 00:40:45,886 - INFO - 🔍 Processando UHE Estreito Jusante (23495000)...
+2025-10-28 00:40:46,227 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 00:40:46,230 - INFO -    ✅ UHE Estreito Barramento: 0/48 registros inseridos
+2025-10-28 00:40:46,232 - INFO - 🔍 Processando Descarreto (23700000)...
+2025-10-28 00:40:46,344 - INFO -    📋 191 registros processados, 191 com dados válidos
+2025-10-28 00:40:46,347 - INFO -    ✅ UHE Estreito Jusante: 0/191 registros inseridos
+2025-10-28 00:40:46,349 - INFO - 🔍 Processando Tucuruí Montande II (23790000)...
+2025-10-28 00:40:46,720 - INFO -    📋 194 registros processados, 194 com dados válidos
+2025-10-28 00:40:46,723 - INFO -    ✅ Descarreto: 0/194 registros inseridos
+2025-10-28 00:40:46,725 - INFO - 🔍 Processando Fazenda Rural Zebu (32540000)...
+2025-10-28 00:40:47,199 - INFO -    📋 49 registros processados, 49 com dados válidos
+2025-10-28 00:40:47,201 - INFO -    ✅ Tucuruí Montande II: 0/49 registros inseridos
+2025-10-28 00:40:47,204 - INFO - 🔍 Processando Alto Bonito (32620000)...
+2025-10-28 00:40:48,298 - INFO -    📋 192 registros processados, 192 com dados válidos
+2025-10-28 00:40:48,301 - INFO -    ✅ Fazenda Rural Zebu: 0/192 registros inseridos
+2025-10-28 00:40:48,303 - INFO - 🔍 Processando Barra do Corda (33250000)...
+2025-10-28 00:40:49,289 - INFO -    📋 193 registros processados, 193 com dados válidos
+2025-10-28 00:40:49,292 - INFO -    ✅ Alto Bonito: 0/193 registros inseridos
+2025-10-28 00:40:49,295 - INFO - 🔍 Processando Santa Vitória (33260010)...
+2025-10-28 00:40:50,292 - INFO -    📋 192 registros processados, 192 com dados válidos
+2025-10-28 00:40:50,294 - INFO -    ✅ Barra do Corda: 0/192 registros inseridos
+2025-10-28 00:40:50,297 - INFO - 🔍 Processando Joselândia (33273010)...
+2025-10-28 00:40:51,287 - INFO -    📋 188 registros processados, 188 com dados válidos
+2025-10-28 00:40:51,291 - INFO -    ✅ Santa Vitória: 0/188 registros inseridos
+2025-10-28 00:40:51,293 - INFO - 🔍 Processando Pedreiras II (33281000)...
+2025-10-28 00:40:52,296 - INFO -    📋 188 registros processados, 188 com dados válidos
+2025-10-28 00:40:52,299 - INFO -    ✅ Joselândia: 0/188 registros inseridos
+2025-10-28 00:40:52,301 - INFO - 🔍 Processando São Luiz Gonzaga (33286000)...
+2025-10-28 00:40:53,295 - INFO -    📋 192 registros processados, 192 com dados válidos
+2025-10-28 00:40:53,299 - INFO -    ✅ Pedreiras II: 0/192 registros inseridos
+2025-10-28 00:40:53,301 - INFO - 🔍 Processando Bacabal (33290000)...
+2025-10-28 00:40:54,295 - INFO -    📋 192 registros processados, 192 com dados válidos
+2025-10-28 00:40:54,298 - INFO -    ✅ São Luiz Gonzaga: 0/192 registros inseridos
+2025-10-28 00:40:54,300 - INFO - 🔍 Processando Grajaú II (33321000)...
+2025-10-28 00:40:55,289 - INFO -    📋 192 registros processados, 192 com dados válidos
+2025-10-28 00:40:55,294 - INFO -    ✅ Bacabal: 0/192 registros inseridos
+2025-10-28 00:40:55,295 - INFO - 🔍 Processando Aratoí Grande (33380010)...
+2025-10-28 00:40:56,298 - INFO -    📋 192 registros processados, 192 com dados válidos
+2025-10-28 00:40:56,301 - INFO -    ✅ Grajaú II: 0/192 registros inseridos
+2025-10-28 00:40:56,305 - INFO - 🔍 Processando Mirador (33420000)...
+2025-10-28 00:40:57,346 - INFO -    📋 192 registros processados, 192 com dados válidos
+2025-10-28 00:40:57,350 - INFO -    ✅ Aratoí Grande: 0/192 registros inseridos
+2025-10-28 00:40:57,352 - INFO - 🔍 Processando Colinas (33480000)...
+2025-10-28 00:40:58,290 - INFO -    📋 188 registros processados, 188 com dados válidos
+2025-10-28 00:40:58,295 - INFO -    ✅ Mirador: 0/188 registros inseridos
+2025-10-28 00:40:58,297 - INFO - 🔍 Processando Montevidéu (33530000)...
+2025-10-28 00:40:59,299 - INFO -    📋 192 registros processados, 192 com dados válidos
+2025-10-28 00:40:59,303 - INFO -    ✅ Colinas: 0/192 registros inseridos
+2025-10-28 00:40:59,305 - INFO - 🔍 Processando Caxias (33550000)...
+2025-10-28 00:41:00,302 - INFO -    📋 192 registros processados, 192 com dados válidos
+2025-10-28 00:41:00,306 - INFO -    ✅ Montevidéu: 0/192 registros inseridos
+2025-10-28 00:41:00,307 - INFO - 🔍 Processando Codó (33590000)...
+2025-10-28 00:41:01,130 - WARNING -    ⚠️  Nenhum dado encontrado para 33550000
+2025-10-28 00:41:01,131 - INFO - 🔍 Processando Coroatá (33630000)...
+2025-10-28 00:41:02,432 - INFO -    📋 192 registros processados, 192 com dados válidos
+2025-10-28 00:41:02,435 - INFO -    ✅ Codó: 0/192 registros inseridos
+2025-10-28 00:41:02,437 - INFO - 🔍 Processando Cantanhede (33680000)...
+2025-10-28 00:41:03,291 - INFO -    📋 192 registros processados, 192 com dados válidos
+2025-10-28 00:41:03,295 - INFO -    ✅ Coroatá: 0/192 registros inseridos
+2025-10-28 00:41:03,300 - INFO - 🔍 Processando Itapecuru-Mirim (33690100)...
+2025-10-28 00:41:04,293 - INFO -    📋 176 registros processados, 176 com dados válidos
+2025-10-28 00:41:04,297 - INFO -    ✅ Cantanhede: 0/176 registros inseridos
+2025-10-28 00:41:04,299 - INFO - 🔍 Processando Munim (33730000)...
+2025-10-28 00:41:05,288 - INFO -    📋 188 registros processados, 188 com dados válidos
+2025-10-28 00:41:05,291 - INFO -    ✅ Itapecuru-Mirim: 0/188 registros inseridos
+2025-10-28 00:41:05,293 - INFO - 🔍 Processando São Benedito (33760005)...
+2025-10-28 00:41:06,366 - INFO -    📋 192 registros processados, 192 com dados válidos
+2025-10-28 00:41:06,375 - INFO -    ✅ Munim: 0/192 registros inseridos
+2025-10-28 00:41:06,377 - INFO - 🔍 Processando Vargem Grande (33770001)...
+2025-10-28 00:41:07,293 - INFO -    📋 192 registros processados, 192 com dados válidos
+2025-10-28 00:41:07,297 - INFO -    ✅ São Benedito: 0/192 registros inseridos
+2025-10-28 00:41:07,298 - INFO - 🔍 Processando Fazenda União (34010000)...
+2025-10-28 00:41:08,291 - INFO -    📋 168 registros processados, 168 com dados válidos
+2025-10-28 00:41:08,294 - INFO -    ✅ Vargem Grande: 0/168 registros inseridos
+2025-10-28 00:41:08,297 - INFO - 🔍 Processando UHE Boa Esperança - Montante 02 (34020980)...
+2025-10-28 00:41:09,124 - WARNING -    ⚠️  Nenhum dado encontrado para 34010000
+2025-10-28 00:41:09,125 - INFO - 🔍 Processando Alto Parnaíba (34020000)...
+2025-10-28 00:41:10,203 - INFO -    📋 47 registros processados, 47 com dados válidos
+2025-10-28 00:41:10,207 - INFO -    ✅ UHE Boa Esperança - Montante 02: 0/47 registros inseridos
+2025-10-28 00:41:10,209 - INFO - 🔍 Processando Fazenda Paracati II (34040500)...
+2025-10-28 00:41:11,330 - INFO -    📋 176 registros processados, 176 com dados válidos
+2025-10-28 00:41:11,334 - INFO -    ✅ Alto Parnaíba: 0/176 registros inseridos
+2025-10-28 00:41:11,336 - INFO - 🔍 Processando UHE Boa Esperança - Montante 01 (34059900)...
+2025-10-28 00:41:12,289 - INFO -    📋 188 registros processados, 188 com dados válidos
+2025-10-28 00:41:12,292 - INFO -    ✅ Fazenda Paracati II: 0/188 registros inseridos
+2025-10-28 00:41:12,294 - INFO - 🔍 Processando Ribeiro Gonçalves (34060000)...
+2025-10-28 00:41:13,198 - INFO -    📋 47 registros processados, 47 com dados válidos
+2025-10-28 00:41:13,201 - INFO -    ✅ UHE Boa Esperança - Montante 01: 0/47 registros inseridos
+2025-10-28 00:41:13,203 - INFO - 🔍 Processando Sítio Velho (34070000)...
+2025-10-28 00:41:14,291 - INFO -    📋 188 registros processados, 188 com dados válidos
+2025-10-28 00:41:14,295 - INFO -    ✅ Ribeiro Gonçalves: 0/188 registros inseridos
+2025-10-28 00:41:14,297 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 02 (34129980)...
+2025-10-28 00:41:15,295 - INFO -    📋 184 registros processados, 184 com dados válidos
+2025-10-28 00:41:15,300 - INFO -    ✅ Sítio Velho: 0/184 registros inseridos
+2025-10-28 00:41:15,302 - INFO - 🔍 Processando Balsas (34130000)...
+2025-10-28 00:41:16,130 - WARNING -    ⚠️  Nenhum dado encontrado para 34129980
+2025-10-28 00:41:16,131 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 01 (34160900)...
+2025-10-28 00:41:17,295 - INFO -    📋 192 registros processados, 192 com dados válidos
+2025-10-28 00:41:17,299 - INFO -    ✅ Balsas: 0/192 registros inseridos
+2025-10-28 00:41:17,301 - INFO - 🔍 Processando São Félix de Balsas (34170000)...
+2025-10-28 00:41:18,202 - INFO -    📋 49 registros processados, 49 com dados válidos
+2025-10-28 00:41:18,205 - INFO -    ✅ UHE Boa Esperança - Balsas 01: 0/49 registros inseridos
+2025-10-28 00:41:18,207 - INFO - 🔍 Processando Barão de Grajaú (34311000)...
+2025-10-28 00:41:19,295 - INFO -    📋 189 registros processados, 189 com dados válidos
+2025-10-28 00:41:19,299 - INFO -    ✅ São Félix de Balsas: 0/189 registros inseridos
+2025-10-28 00:41:19,300 - INFO - 🔍 Processando Fazenda Veneza (34660000)...
+2025-10-28 00:41:20,305 - INFO -    📋 189 registros processados, 189 com dados válidos
+2025-10-28 00:41:20,308 - INFO -    ✅ Barão de Grajaú: 0/189 registros inseridos
+2025-10-28 00:41:20,311 - INFO - 🔍 Processando Teresina - CHESF (34690000)...
+2025-10-28 00:41:21,297 - INFO -    📋 192 registros processados, 192 com dados válidos
+2025-10-28 00:41:21,302 - INFO -    ✅ Fazenda Veneza: 0/192 registros inseridos
+2025-10-28 00:41:21,304 - INFO - 🔍 Processando Coelho Neto (34820000)...
+2025-10-28 00:41:22,314 - INFO -    📋 192 registros processados, 192 com dados válidos
+2025-10-28 00:41:22,317 - INFO -    ✅ Teresina - CHESF: 0/192 registros inseridos
+2025-10-28 00:41:22,318 - INFO - 🔍 Processando Luzilândia (34879500)...
+2025-10-28 00:41:23,295 - INFO -    📋 188 registros processados, 188 com dados válidos
+2025-10-28 00:41:23,299 - INFO -    ✅ Coelho Neto: 0/188 registros inseridos
+2025-10-28 00:41:24,349 - INFO -    📋 195 registros processados, 195 com dados válidos
+2025-10-28 00:41:24,352 - INFO -    ✅ Luzilândia: 0/195 registros inseridos
+2025-10-28 00:41:24,358 - INFO - 
+============================================================
+2025-10-28 00:41:24,358 - INFO - 🎉 COLETA CONCLUÍDA!
+2025-10-28 00:41:24,358 - INFO - 📈 Estações processadas: 45
+2025-10-28 00:41:24,358 - INFO - 📊 Registros coletados: 7247
+2025-10-28 00:41:24,359 - INFO - 💾 Registros inseridos: 0
+2025-10-28 00:41:24,359 - INFO - 📈 Taxa de sucesso: 0.0%
+2025-10-28 00:41:24,359 - INFO - ⏱️  Tempo total: 39.56 segundos
+2025-10-28 00:41:24,359 - INFO - ⚡ Velocidade: 0.0 registros/segundo
+2025-10-28 00:41:24,406 - INFO - 💽 Total de registros no banco: 2344409
+2025-10-28 00:41:24,536 - INFO - 🏞️  Estações com dados no banco: 45
+2025-10-28 00:41:24,537 - ERROR - ⚠️  Não foi possível verificar estatísticas do banco: no such column: data_insercao
+2025-10-28 00:42:08,425 - INFO - 🛑 Coletor interrompido pelo usuário
+2025-10-28 00:42:18,415 - INFO - ✅ Arquivo de estações carregado: 73 estações encontradas
+2025-10-28 00:42:18,415 - INFO - 🏞️  Total de estações para processar: 45
+2025-10-28 00:42:18,417 - INFO - ✅ Tabelas e índices verificados/criados
+2025-10-28 00:42:18,424 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 00:42:18,677 - INFO - 📅 Últimas datas carregadas para 45 estações
+2025-10-28 00:42:18,679 - INFO - ⏰ INICIANDO AGENDADOR - Coleta a cada 15 minutos
+2025-10-28 00:42:18,679 - INFO - 🚀 Executando coleta inicial...
+2025-10-28 00:42:18,679 - INFO - 🚀 INICIANDO COLETA AUTOMÁTICA...
+2025-10-28 00:42:18,933 - INFO - 📅 Últimas datas carregadas para 45 estações
+2025-10-28 00:42:18,939 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 00:42:18,939 - INFO - 📊 Progresso da Coleta:
+2025-10-28 00:42:18,943 - INFO - 🔍 Processando UHE Estreito Rio Manoel Alves Grande (23249000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:18,943 - INFO - 🔍 Processando Goiatins (23250000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:19,273 - WARNING -    ⚠️  Nenhum dado encontrado para 23250000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:19,274 - INFO - 🔍 Processando UHE Estreito - Montante 01 (23310000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:19,330 - WARNING -    ⚠️  Nenhum dado encontrado para 23249000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:19,331 - INFO - 🔍 Processando UHE Estreito Rio Farinha (23466000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:19,580 - WARNING -    ⚠️  Nenhum dado encontrado para 23310000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:19,581 - INFO - 🔍 Processando UHE Estreito Barramento (23490000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:19,656 - WARNING -    ⚠️  Nenhum dado encontrado para 23466000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:19,658 - INFO - 🔍 Processando UHE Estreito Jusante (23495000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:19,933 - WARNING -    ⚠️  Nenhum dado encontrado para 23490000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:19,934 - INFO - 🔍 Processando Descarreto (23700000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 00:42:19,934 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 00:42:19,935 - INFO - 🔍 Processando Tucuruí Montande II (23790000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 00:42:19,935 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 00:42:19,935 - INFO - 🔍 Processando Fazenda Rural Zebu (32540000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:20,001 - WARNING -    ⚠️  Nenhum dado encontrado para 23495000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:20,002 - INFO - 🔍 Processando Alto Bonito (32620000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 00:42:20,002 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 00:42:20,003 - INFO - 🔍 Processando Barra do Corda (33250000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:20,265 - WARNING -    ⚠️  Nenhum dado encontrado para 32540000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:20,266 - INFO - 🔍 Processando Santa Vitória (33260010) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:21,456 - WARNING -    ⚠️  Nenhum dado encontrado para 33250000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:21,457 - INFO - 🔍 Processando Joselândia (33273010) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:22,321 - WARNING -    ⚠️  Nenhum dado encontrado para 33260010 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:22,322 - INFO - 🔍 Processando Pedreiras II (33281000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:23,320 - WARNING -    ⚠️  Nenhum dado encontrado para 33273010 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:23,322 - INFO - 🔍 Processando São Luiz Gonzaga (33286000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:24,321 - WARNING -    ⚠️  Nenhum dado encontrado para 33281000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:24,322 - INFO - 🔍 Processando Bacabal (33290000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:25,265 - WARNING -    ⚠️  Nenhum dado encontrado para 33286000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:25,267 - INFO - 🔍 Processando Grajaú II (33321000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:26,266 - WARNING -    ⚠️  Nenhum dado encontrado para 33290000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:26,267 - INFO - 🔍 Processando Aratoí Grande (33380010) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:27,272 - WARNING -    ⚠️  Nenhum dado encontrado para 33321000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:27,273 - INFO - 🔍 Processando Mirador (33420000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:28,383 - WARNING -    ⚠️  Nenhum dado encontrado para 33380010 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:28,384 - INFO - 🔍 Processando Colinas (33480000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:29,264 - WARNING -    ⚠️  Nenhum dado encontrado para 33420000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:29,265 - INFO - 🔍 Processando Montevidéu (33530000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:30,261 - WARNING -    ⚠️  Nenhum dado encontrado para 33480000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:30,263 - INFO - 🔍 Processando Caxias (33550000) - Período: 2025-10-25 a 2025-10-28
+2025-10-28 00:42:31,266 - WARNING -    ⚠️  Nenhum dado encontrado para 33530000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:31,268 - INFO - 🔍 Processando Codó (33590000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:32,321 - WARNING -    ⚠️  Nenhum dado encontrado para 33550000 no período 2025-10-25 a 2025-10-28
+2025-10-28 00:42:32,322 - INFO - 🔍 Processando Coroatá (33630000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:33,321 - WARNING -    ⚠️  Nenhum dado encontrado para 33590000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:33,322 - INFO - 🔍 Processando Cantanhede (33680000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:34,271 - WARNING -    ⚠️  Nenhum dado encontrado para 33630000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:34,272 - INFO - 🔍 Processando Itapecuru-Mirim (33690100) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:35,322 - WARNING -    ⚠️  Nenhum dado encontrado para 33680000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:35,323 - INFO - 🔍 Processando Munim (33730000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:36,315 - WARNING -    ⚠️  Nenhum dado encontrado para 33690100 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:36,317 - INFO - 🔍 Processando São Benedito (33760005) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:37,268 - WARNING -    ⚠️  Nenhum dado encontrado para 33730000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:37,269 - INFO - 🔍 Processando Vargem Grande (33770001) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:38,261 - WARNING -    ⚠️  Nenhum dado encontrado para 33760005 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:38,263 - INFO - 🔍 Processando Fazenda União (34010000) - Período: 2024-10-11 a 2025-10-28
+2025-10-28 00:42:39,268 - WARNING -    ⚠️  Nenhum dado encontrado para 33770001 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:39,269 - INFO - 🔍 Processando UHE Boa Esperança - Montante 02 (34020980) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:40,269 - WARNING -    ⚠️  Nenhum dado encontrado para 34010000 no período 2024-10-11 a 2025-10-28
+2025-10-28 00:42:40,270 - INFO - 🔍 Processando Alto Parnaíba (34020000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:41,321 - WARNING -    ⚠️  Nenhum dado encontrado para 34020980 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:41,322 - INFO - 🔍 Processando Fazenda Paracati II (34040500) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:42,326 - WARNING -    ⚠️  Nenhum dado encontrado para 34020000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:42,328 - INFO - 🔍 Processando UHE Boa Esperança - Montante 01 (34059900) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:43,264 - WARNING -    ⚠️  Nenhum dado encontrado para 34040500 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:43,266 - INFO - 🔍 Processando Ribeiro Gonçalves (34060000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:44,321 - WARNING -    ⚠️  Nenhum dado encontrado para 34059900 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:44,322 - INFO - 🔍 Processando Sítio Velho (34070000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:45,320 - WARNING -    ⚠️  Nenhum dado encontrado para 34060000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:45,321 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 02 (34129980) - Período: 2025-05-24 a 2025-10-28
+2025-10-28 00:42:46,316 - WARNING -    ⚠️  Nenhum dado encontrado para 34070000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:46,317 - INFO - 🔍 Processando Balsas (34130000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:47,315 - WARNING -    ⚠️  Nenhum dado encontrado para 34129980 no período 2025-05-24 a 2025-10-28
+2025-10-28 00:42:47,316 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 01 (34160900) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 00:42:47,316 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 00:42:47,316 - INFO - 🔍 Processando São Félix de Balsas (34170000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 00:42:47,317 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 00:42:47,318 - INFO - 🔍 Processando Barão de Grajaú (34311000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 00:42:47,318 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 00:42:47,319 - INFO - 🔍 Processando Fazenda Veneza (34660000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:48,265 - WARNING -    ⚠️  Nenhum dado encontrado para 34130000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:48,267 - INFO - 🔍 Processando Teresina - CHESF (34690000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:49,268 - WARNING -    ⚠️  Nenhum dado encontrado para 34660000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:49,269 - INFO - 🔍 Processando Coelho Neto (34820000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:42:50,267 - WARNING -    ⚠️  Nenhum dado encontrado para 34690000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:50,269 - INFO - 🔍 Processando Luzilândia (34879500) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 00:42:50,269 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 00:42:51,264 - WARNING -    ⚠️  Nenhum dado encontrado para 34820000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:42:51,269 - INFO - 
+============================================================
+2025-10-28 00:42:51,269 - INFO - 🎉 COLETA CONCLUÍDA!
+2025-10-28 00:42:51,269 - INFO - 📈 Estações processadas: 45
+2025-10-28 00:42:51,269 - INFO - 📊 Registros coletados: 0
+2025-10-28 00:42:51,269 - INFO - 💾 Registros inseridos: 0
+2025-10-28 00:42:51,270 - INFO - ⏱️  Tempo total: 32.59 segundos
+2025-10-28 00:42:51,270 - INFO - ⚡ Velocidade: 0.0 registros/segundo
+2025-10-28 00:42:51,316 - INFO - 💽 Total de registros no banco: 2344409
+2025-10-28 00:42:51,444 - INFO - 🏞️  Estações com dados no banco: 45
+2025-10-28 00:42:51,445 - ERROR - ⚠️  Não foi possível verificar estatísticas do banco: no such column: data_insercao
+2025-10-28 00:57:18,723 - INFO - 🚀 INICIANDO COLETA AUTOMÁTICA...
+2025-10-28 00:57:18,978 - INFO - 📅 Últimas datas carregadas para 45 estações
+2025-10-28 00:57:18,985 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 00:57:18,985 - INFO - 📊 Progresso da Coleta:
+2025-10-28 00:57:18,988 - INFO - 🔍 Processando UHE Estreito Rio Manoel Alves Grande (23249000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:18,988 - INFO - 🔍 Processando Goiatins (23250000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:19,310 - INFO -    📋 3 registros processados, 3 com dados válidos
+2025-10-28 00:57:19,314 - INFO -    ✅ Goiatins: 3/3 registros inseridos
+2025-10-28 00:57:19,317 - INFO - 🔍 Processando UHE Estreito - Montante 01 (23310000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:19,368 - INFO -    📋 3 registros processados, 3 com dados válidos
+2025-10-28 00:57:19,371 - INFO -    ✅ UHE Estreito Rio Manoel Alves Grande: 3/3 registros inseridos
+2025-10-28 00:57:19,374 - INFO - 🔍 Processando UHE Estreito Rio Farinha (23466000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:19,636 - WARNING -    ⚠️  Nenhum dado encontrado para 23310000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:57:19,637 - INFO - 🔍 Processando UHE Estreito Barramento (23490000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:19,675 - INFO -    📋 3 registros processados, 3 com dados válidos
+2025-10-28 00:57:19,678 - INFO -    ✅ UHE Estreito Rio Farinha: 3/3 registros inseridos
+2025-10-28 00:57:19,681 - INFO - 🔍 Processando UHE Estreito Jusante (23495000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:19,970 - INFO -    📋 1 registros processados, 1 com dados válidos
+2025-10-28 00:57:19,973 - INFO -    ✅ UHE Estreito Barramento: 1/1 registros inseridos
+2025-10-28 00:57:19,975 - INFO - 🔍 Processando Descarreto (23700000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 00:57:19,975 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 00:57:19,976 - INFO - 🔍 Processando Tucuruí Montande II (23790000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 00:57:19,976 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 00:57:19,977 - INFO - 🔍 Processando Fazenda Rural Zebu (32540000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:20,014 - INFO -    📋 3 registros processados, 3 com dados válidos
+2025-10-28 00:57:20,018 - INFO -    ✅ UHE Estreito Jusante: 3/3 registros inseridos
+2025-10-28 00:57:20,020 - INFO - 🔍 Processando Alto Bonito (32620000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 00:57:20,020 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 00:57:20,021 - INFO - 🔍 Processando Barra do Corda (33250000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:20,332 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 00:57:20,337 - INFO -    ✅ Fazenda Rural Zebu: 4/4 registros inseridos
+2025-10-28 00:57:20,339 - INFO - 🔍 Processando Santa Vitória (33260010) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:21,365 - WARNING -    ⚠️  Nenhum dado encontrado para 33250000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:57:21,366 - INFO - 🔍 Processando Joselândia (33273010) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:22,306 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 00:57:22,311 - INFO -    ✅ Santa Vitória: 4/4 registros inseridos
+2025-10-28 00:57:22,313 - INFO - 🔍 Processando Pedreiras II (33281000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:23,319 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 00:57:23,323 - INFO -    ✅ Joselândia: 4/4 registros inseridos
+2025-10-28 00:57:23,325 - INFO - 🔍 Processando São Luiz Gonzaga (33286000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:24,319 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 00:57:24,323 - INFO -    ✅ Pedreiras II: 4/4 registros inseridos
+2025-10-28 00:57:24,325 - INFO - 🔍 Processando Bacabal (33290000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:25,319 - WARNING -    ⚠️  Nenhum dado encontrado para 33286000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:57:25,320 - INFO - 🔍 Processando Grajaú II (33321000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:26,321 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 00:57:26,325 - INFO -    ✅ Bacabal: 4/4 registros inseridos
+2025-10-28 00:57:26,326 - INFO - 🔍 Processando Aratoí Grande (33380010) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:27,375 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 00:57:27,377 - INFO -    ✅ Grajaú II: 4/4 registros inseridos
+2025-10-28 00:57:27,379 - INFO - 🔍 Processando Mirador (33420000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:28,306 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 00:57:28,309 - INFO -    ✅ Aratoí Grande: 4/4 registros inseridos
+2025-10-28 00:57:28,311 - INFO - 🔍 Processando Colinas (33480000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:29,323 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 00:57:29,327 - INFO -    ✅ Mirador: 4/4 registros inseridos
+2025-10-28 00:57:29,329 - INFO - 🔍 Processando Montevidéu (33530000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:30,307 - WARNING -    ⚠️  Nenhum dado encontrado para 33480000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:57:30,308 - INFO - 🔍 Processando Caxias (33550000) - Período: 2025-10-25 a 2025-10-28
+2025-10-28 00:57:31,319 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 00:57:31,323 - INFO -    ✅ Montevidéu: 4/4 registros inseridos
+2025-10-28 00:57:31,325 - INFO - 🔍 Processando Codó (33590000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:32,322 - WARNING -    ⚠️  Nenhum dado encontrado para 33550000 no período 2025-10-25 a 2025-10-28
+2025-10-28 00:57:32,323 - INFO - 🔍 Processando Coroatá (33630000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:33,308 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 00:57:33,312 - INFO -    ✅ Codó: 4/4 registros inseridos
+2025-10-28 00:57:33,314 - INFO - 🔍 Processando Cantanhede (33680000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:34,337 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 00:57:34,340 - INFO -    ✅ Coroatá: 4/4 registros inseridos
+2025-10-28 00:57:34,343 - INFO - 🔍 Processando Itapecuru-Mirim (33690100) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:35,334 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 00:57:35,338 - INFO -    ✅ Cantanhede: 4/4 registros inseridos
+2025-10-28 00:57:35,339 - INFO - 🔍 Processando Munim (33730000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:36,318 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 00:57:36,321 - INFO -    ✅ Itapecuru-Mirim: 4/4 registros inseridos
+2025-10-28 00:57:36,323 - INFO - 🔍 Processando São Benedito (33760005) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:37,319 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 00:57:37,328 - INFO -    ✅ Munim: 4/4 registros inseridos
+2025-10-28 00:57:37,332 - INFO - 🔍 Processando Vargem Grande (33770001) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:38,381 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 00:57:38,385 - INFO -    ✅ São Benedito: 4/4 registros inseridos
+2025-10-28 00:57:38,388 - INFO - 🔍 Processando Fazenda União (34010000) - Período: 2024-10-11 a 2025-10-28
+2025-10-28 00:57:39,384 - WARNING -    ⚠️  Nenhum dado encontrado para 33770001 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:57:39,385 - INFO - 🔍 Processando UHE Boa Esperança - Montante 02 (34020980) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:40,385 - WARNING -    ⚠️  Nenhum dado encontrado para 34010000 no período 2024-10-11 a 2025-10-28
+2025-10-28 00:57:40,386 - INFO - 🔍 Processando Alto Parnaíba (34020000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:41,362 - WARNING -    ⚠️  Nenhum dado encontrado para 34020980 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:57:41,364 - INFO - 🔍 Processando Fazenda Paracati II (34040500) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:42,306 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 00:57:42,310 - INFO -    ✅ Alto Parnaíba: 4/4 registros inseridos
+2025-10-28 00:57:42,313 - INFO - 🔍 Processando UHE Boa Esperança - Montante 01 (34059900) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:43,372 - WARNING -    ⚠️  Nenhum dado encontrado para 34040500 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:57:43,373 - INFO - 🔍 Processando Ribeiro Gonçalves (34060000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:44,304 - WARNING -    ⚠️  Nenhum dado encontrado para 34059900 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:57:44,305 - INFO - 🔍 Processando Sítio Velho (34070000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:45,307 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 00:57:45,310 - INFO -    ✅ Ribeiro Gonçalves: 4/4 registros inseridos
+2025-10-28 00:57:45,312 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 02 (34129980) - Período: 2025-05-24 a 2025-10-28
+2025-10-28 00:57:46,308 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 00:57:46,312 - INFO -    ✅ Sítio Velho: 4/4 registros inseridos
+2025-10-28 00:57:46,314 - INFO - 🔍 Processando Balsas (34130000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:47,307 - WARNING -    ⚠️  Nenhum dado encontrado para 34129980 no período 2025-05-24 a 2025-10-28
+2025-10-28 00:57:47,307 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 01 (34160900) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 00:57:47,308 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 00:57:47,309 - INFO - 🔍 Processando São Félix de Balsas (34170000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 00:57:47,309 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 00:57:47,310 - INFO - 🔍 Processando Barão de Grajaú (34311000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 00:57:47,310 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 00:57:47,311 - INFO - 🔍 Processando Fazenda Veneza (34660000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:48,319 - WARNING -    ⚠️  Nenhum dado encontrado para 34130000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:57:48,320 - INFO - 🔍 Processando Teresina - CHESF (34690000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:49,306 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 00:57:49,310 - INFO -    ✅ Fazenda Veneza: 4/4 registros inseridos
+2025-10-28 00:57:49,313 - INFO - 🔍 Processando Coelho Neto (34820000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 00:57:50,316 - WARNING -    ⚠️  Nenhum dado encontrado para 34690000 no período 2025-10-28 a 2025-10-28
+2025-10-28 00:57:50,317 - INFO - 🔍 Processando Luzilândia (34879500) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 00:57:50,317 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 00:57:51,381 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 00:57:51,385 - INFO -    ✅ Coelho Neto: 4/4 registros inseridos
+2025-10-28 00:57:51,391 - INFO - 
+============================================================
+2025-10-28 00:57:51,391 - INFO - 🎉 COLETA CONCLUÍDA!
+2025-10-28 00:57:51,391 - INFO - 📈 Estações processadas: 45
+2025-10-28 00:57:51,391 - INFO - 📊 Registros coletados: 93
+2025-10-28 00:57:51,392 - INFO - 💾 Registros inseridos: 93
+2025-10-28 00:57:51,392 - INFO - 📈 Taxa de sucesso: 100.0%
+2025-10-28 00:57:51,392 - INFO - ⏱️  Tempo total: 32.66 segundos
+2025-10-28 00:57:51,392 - INFO - ⚡ Velocidade: 2.8 registros/segundo
+2025-10-28 00:57:51,437 - INFO - 💽 Total de registros no banco: 2344502
+2025-10-28 00:57:51,566 - INFO - 🏞️  Estações com dados no banco: 45
+2025-10-28 00:57:51,567 - ERROR - ⚠️  Não foi possível verificar estatísticas do banco: no such column: data_insercao
+2025-10-28 01:12:51,842 - INFO - 🚀 INICIANDO COLETA AUTOMÁTICA...
+2025-10-28 01:12:52,099 - INFO - 📅 Últimas datas carregadas para 45 estações
+2025-10-28 01:12:52,106 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 01:12:52,106 - INFO - 📊 Progresso da Coleta:
+2025-10-28 01:12:52,112 - INFO - 🔍 Processando UHE Estreito Rio Manoel Alves Grande (23249000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:52,112 - INFO - 🔍 Processando Goiatins (23250000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:52,112 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:52,112 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:52,113 - INFO - 🔍 Processando UHE Estreito - Montante 01 (23310000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 01:12:52,113 - INFO - 🔍 Processando UHE Estreito Rio Farinha (23466000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:52,114 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:52,114 - INFO - 🔍 Processando UHE Estreito Barramento (23490000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:52,114 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:52,115 - INFO - 🔍 Processando UHE Estreito Jusante (23495000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:52,115 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:52,116 - INFO - 🔍 Processando Descarreto (23700000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:52,116 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:52,117 - INFO - 🔍 Processando Tucuruí Montande II (23790000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:52,117 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:52,118 - INFO - 🔍 Processando Fazenda Rural Zebu (32540000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:52,118 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:52,119 - INFO - 🔍 Processando Alto Bonito (32620000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:52,119 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:52,119 - INFO - 🔍 Processando Barra do Corda (33250000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 01:12:52,568 - WARNING -    ⚠️  Nenhum dado encontrado para 23310000 no período 2025-10-28 a 2025-10-28
+2025-10-28 01:12:52,570 - INFO - 🔍 Processando Santa Vitória (33260010) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:52,570 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:52,571 - INFO - 🔍 Processando Joselândia (33273010) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:52,571 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:52,571 - INFO - 🔍 Processando Pedreiras II (33281000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:52,572 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:52,572 - INFO - 🔍 Processando São Luiz Gonzaga (33286000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 01:12:52,630 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 01:12:52,633 - INFO -    ✅ Barra do Corda: 4/4 registros inseridos
+2025-10-28 01:12:52,636 - INFO - 🔍 Processando Bacabal (33290000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:52,636 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:52,636 - INFO - 🔍 Processando Grajaú II (33321000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:52,637 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:52,637 - INFO - 🔍 Processando Aratoí Grande (33380010) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:52,637 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:52,638 - INFO - 🔍 Processando Mirador (33420000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:52,638 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:52,638 - INFO - 🔍 Processando Colinas (33480000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 01:12:52,894 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 01:12:52,897 - INFO -    ✅ São Luiz Gonzaga: 4/4 registros inseridos
+2025-10-28 01:12:52,898 - INFO - 🔍 Processando Montevidéu (33530000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:52,899 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:52,899 - INFO - 🔍 Processando Caxias (33550000) - Período: 2025-10-25 a 2025-10-28
+2025-10-28 01:12:52,993 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 01:12:52,997 - INFO -    ✅ Colinas: 4/4 registros inseridos
+2025-10-28 01:12:52,998 - INFO - 🔍 Processando Codó (33590000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:52,999 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:52,999 - INFO - 🔍 Processando Coroatá (33630000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:52,999 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:53,001 - INFO - 🔍 Processando Cantanhede (33680000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:53,001 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:53,001 - INFO - 🔍 Processando Itapecuru-Mirim (33690100) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:53,002 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:53,002 - INFO - 🔍 Processando Munim (33730000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:53,002 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:53,003 - INFO - 🔍 Processando São Benedito (33760005) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:53,003 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:53,003 - INFO - 🔍 Processando Vargem Grande (33770001) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 01:12:53,231 - WARNING -    ⚠️  Nenhum dado encontrado para 33550000 no período 2025-10-25 a 2025-10-28
+2025-10-28 01:12:53,232 - INFO - 🔍 Processando Fazenda União (34010000) - Período: 2024-10-11 a 2025-10-28
+2025-10-28 01:12:53,312 - WARNING -    ⚠️  Nenhum dado encontrado para 33770001 no período 2025-10-28 a 2025-10-28
+2025-10-28 01:12:53,314 - INFO - 🔍 Processando UHE Boa Esperança - Montante 02 (34020980) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 01:12:53,579 - WARNING -    ⚠️  Nenhum dado encontrado para 34010000 no período 2024-10-11 a 2025-10-28
+2025-10-28 01:12:53,580 - INFO - 🔍 Processando Alto Parnaíba (34020000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:53,580 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:53,581 - INFO - 🔍 Processando Fazenda Paracati II (34040500) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 01:12:54,571 - WARNING -    ⚠️  Nenhum dado encontrado para 34020980 no período 2025-10-28 a 2025-10-28
+2025-10-28 01:12:54,572 - INFO - 🔍 Processando UHE Boa Esperança - Montante 01 (34059900) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 01:12:55,571 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 01:12:55,574 - INFO -    ✅ Fazenda Paracati II: 4/4 registros inseridos
+2025-10-28 01:12:55,576 - INFO - 🔍 Processando Ribeiro Gonçalves (34060000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:55,576 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:55,576 - INFO - 🔍 Processando Sítio Velho (34070000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:55,577 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:55,577 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 02 (34129980) - Período: 2025-05-24 a 2025-10-28
+2025-10-28 01:12:56,573 - WARNING -    ⚠️  Nenhum dado encontrado para 34059900 no período 2025-10-28 a 2025-10-28
+2025-10-28 01:12:56,574 - INFO - 🔍 Processando Balsas (34130000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 01:12:57,572 - WARNING -    ⚠️  Nenhum dado encontrado para 34129980 no período 2025-05-24 a 2025-10-28
+2025-10-28 01:12:57,573 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 01 (34160900) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:57,574 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:57,574 - INFO - 🔍 Processando São Félix de Balsas (34170000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:57,574 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:57,575 - INFO - 🔍 Processando Barão de Grajaú (34311000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:57,575 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:57,575 - INFO - 🔍 Processando Fazenda Veneza (34660000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:57,575 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:57,576 - INFO - 🔍 Processando Teresina - CHESF (34690000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 01:12:58,577 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 01:12:58,579 - INFO -    ✅ Balsas: 4/4 registros inseridos
+2025-10-28 01:12:58,582 - INFO - 🔍 Processando Coelho Neto (34820000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:58,582 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:58,583 - INFO - 🔍 Processando Luzilândia (34879500) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:12:58,583 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:12:59,574 - INFO -    📋 4 registros processados, 4 com dados válidos
+2025-10-28 01:12:59,578 - INFO -    ✅ Teresina - CHESF: 4/4 registros inseridos
+2025-10-28 01:12:59,584 - INFO - 
+============================================================
+2025-10-28 01:12:59,584 - INFO - 🎉 COLETA CONCLUÍDA!
+2025-10-28 01:12:59,584 - INFO - 📈 Estações processadas: 45
+2025-10-28 01:12:59,584 - INFO - 📊 Registros coletados: 24
+2025-10-28 01:12:59,584 - INFO - 💾 Registros inseridos: 24
+2025-10-28 01:12:59,584 - INFO - 📈 Taxa de sucesso: 100.0%
+2025-10-28 01:12:59,584 - INFO - ⏱️  Tempo total: 7.74 segundos
+2025-10-28 01:12:59,584 - INFO - ⚡ Velocidade: 3.1 registros/segundo
+2025-10-28 01:12:59,632 - INFO - 💽 Total de registros no banco: 2344526
+2025-10-28 01:12:59,762 - INFO - 🏞️  Estações com dados no banco: 45
+2025-10-28 01:12:59,763 - ERROR - ⚠️  Não foi possível verificar estatísticas do banco: no such column: data_insercao
+2025-10-28 01:13:55,984 - INFO - 🛑 Coletor interrompido pelo usuário
+2025-10-28 01:14:11,762 - INFO - ✅ Arquivo de estações carregado: 73 estações encontradas
+2025-10-28 01:14:11,767 - INFO - 🏞️  Total de estações para processar: 45
+2025-10-28 01:14:11,772 - INFO - ✅ Tabelas e índices verificados/criados
+2025-10-28 01:14:11,778 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 01:14:12,042 - INFO - 📅 Últimas datas carregadas para 45 estações
+2025-10-28 01:14:12,043 - INFO - ⏰ INICIANDO AGENDADOR - Coleta a cada 15 minutos
+2025-10-28 01:14:12,043 - INFO - 🚀 Executando coleta inicial...
+2025-10-28 01:14:12,043 - INFO - 🚀 INICIANDO COLETA AUTOMÁTICA...
+2025-10-28 01:14:12,306 - INFO - 📅 Últimas datas carregadas para 45 estações
+2025-10-28 01:14:12,313 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 01:14:12,313 - INFO - 📊 Progresso da Coleta:
+2025-10-28 01:14:12,318 - INFO - 🔍 Processando UHE Estreito Rio Manoel Alves Grande (23249000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,318 - INFO - 🔍 Processando Goiatins (23250000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,318 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,318 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,319 - INFO - 🔍 Processando UHE Estreito Rio Farinha (23466000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,319 - INFO - 🔍 Processando UHE Estreito - Montante 01 (23310000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 01:14:12,320 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,321 - INFO - 🔍 Processando UHE Estreito Barramento (23490000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,322 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,322 - INFO - 🔍 Processando UHE Estreito Jusante (23495000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,322 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,323 - INFO - 🔍 Processando Descarreto (23700000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,323 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,324 - INFO - 🔍 Processando Tucuruí Montande II (23790000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,325 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,326 - INFO - 🔍 Processando Fazenda Rural Zebu (32540000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,326 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,327 - INFO - 🔍 Processando Alto Bonito (32620000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,327 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,327 - INFO - 🔍 Processando Barra do Corda (33250000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,327 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,329 - INFO - 🔍 Processando Santa Vitória (33260010) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,329 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,330 - INFO - 🔍 Processando Joselândia (33273010) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,330 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,331 - INFO - 🔍 Processando Pedreiras II (33281000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,331 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,332 - INFO - 🔍 Processando São Luiz Gonzaga (33286000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,332 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,332 - INFO - 🔍 Processando Bacabal (33290000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,332 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,333 - INFO - 🔍 Processando Grajaú II (33321000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,333 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,334 - INFO - 🔍 Processando Aratoí Grande (33380010) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,334 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,334 - INFO - 🔍 Processando Mirador (33420000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,335 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,336 - INFO - 🔍 Processando Colinas (33480000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,336 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,337 - INFO - 🔍 Processando Montevidéu (33530000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,337 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,338 - INFO - 🔍 Processando Caxias (33550000) - Período: 2025-10-25 a 2025-10-28
+2025-10-28 01:14:12,661 - WARNING -    ⚠️  Nenhum dado encontrado para 23310000 no período 2025-10-28 a 2025-10-28
+2025-10-28 01:14:12,662 - INFO - 🔍 Processando Codó (33590000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,662 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,663 - INFO - 🔍 Processando Coroatá (33630000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,663 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,664 - INFO - 🔍 Processando Cantanhede (33680000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,664 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,665 - INFO - 🔍 Processando Itapecuru-Mirim (33690100) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,665 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,666 - INFO - 🔍 Processando Munim (33730000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,666 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,666 - INFO - 🔍 Processando São Benedito (33760005) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:12,667 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:12,667 - INFO - 🔍 Processando Vargem Grande (33770001) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 01:14:12,718 - WARNING -    ⚠️  Nenhum dado encontrado para 33550000 no período 2025-10-25 a 2025-10-28
+2025-10-28 01:14:12,719 - INFO - 🔍 Processando Fazenda União (34010000) - Período: 2024-10-11 a 2025-10-28
+2025-10-28 01:14:12,969 - WARNING -    ⚠️  Nenhum dado encontrado para 33770001 no período 2025-10-28 a 2025-10-28
+2025-10-28 01:14:12,970 - INFO - 🔍 Processando UHE Boa Esperança - Montante 02 (34020980) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 01:14:13,016 - WARNING -    ⚠️  Nenhum dado encontrado para 34010000 no período 2024-10-11 a 2025-10-28
+2025-10-28 01:14:13,018 - INFO - 🔍 Processando Alto Parnaíba (34020000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:13,018 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:13,019 - INFO - 🔍 Processando Fazenda Paracati II (34040500) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:13,019 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:13,019 - INFO - 🔍 Processando UHE Boa Esperança - Montante 01 (34059900) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 01:14:13,261 - WARNING -    ⚠️  Nenhum dado encontrado para 34020980 no período 2025-10-28 a 2025-10-28
+2025-10-28 01:14:13,263 - INFO - 🔍 Processando Ribeiro Gonçalves (34060000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:13,263 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:13,263 - INFO - 🔍 Processando Sítio Velho (34070000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:13,264 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:13,264 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 02 (34129980) - Período: 2025-05-24 a 2025-10-28
+2025-10-28 01:14:13,310 - WARNING -    ⚠️  Nenhum dado encontrado para 34059900 no período 2025-10-28 a 2025-10-28
+2025-10-28 01:14:13,312 - INFO - 🔍 Processando Balsas (34130000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:13,312 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:13,312 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 01 (34160900) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:13,312 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:13,313 - INFO - 🔍 Processando São Félix de Balsas (34170000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:13,313 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:13,313 - INFO - 🔍 Processando Barão de Grajaú (34311000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:13,313 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:13,314 - INFO - 🔍 Processando Fazenda Veneza (34660000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:13,314 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:13,314 - INFO - 🔍 Processando Teresina - CHESF (34690000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:13,315 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:13,316 - INFO - 🔍 Processando Coelho Neto (34820000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:13,316 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:13,317 - INFO - 🔍 Processando Luzilândia (34879500) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 01:14:13,317 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 01:14:13,664 - WARNING -    ⚠️  Nenhum dado encontrado para 34129980 no período 2025-05-24 a 2025-10-28
+2025-10-28 01:14:13,670 - INFO - 
+============================================================
+2025-10-28 01:14:13,670 - INFO - 🎉 COLETA CONCLUÍDA!
+2025-10-28 01:14:13,670 - INFO - 📈 Estações processadas: 45
+2025-10-28 01:14:13,670 - INFO - 📊 Registros coletados: 0
+2025-10-28 01:14:13,670 - INFO - 💾 Registros inseridos: 0
+2025-10-28 01:14:13,671 - INFO - ⏱️  Tempo total: 1.62 segundos
+2025-10-28 01:14:13,671 - INFO - ⚡ Velocidade: 0.0 registros/segundo
+2025-10-28 01:14:13,718 - INFO - 💽 Total de registros no banco: 2344526
+2025-10-28 01:14:13,857 - INFO - 🏞️  Estações com dados no banco: 45
+2025-10-28 01:14:13,858 - ERROR - ⚠️  Não foi possível verificar estatísticas do banco: no such column: data_insercao
+2025-10-28 01:15:30,387 - INFO - 🛑 Coletor interrompido pelo usuário
+2025-10-28 02:17:51,080 - INFO - ✅ Arquivo de estações carregado: 73 estações encontradas
+2025-10-28 02:17:51,086 - INFO - 🏞️  Total de estações para processar: 45
+2025-10-28 02:17:51,091 - INFO - ✅ Tabelas e índices verificados/criados
+2025-10-28 02:17:51,098 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 02:17:53,249 - INFO - 📅 Últimas datas carregadas para 45 estações
+2025-10-28 02:17:53,250 - INFO - ⏰ INICIANDO AGENDADOR - Coleta a cada 15 minutos
+2025-10-28 02:17:53,250 - INFO - 🚀 Executando coleta inicial...
+2025-10-28 02:17:53,250 - INFO - 🚀 INICIANDO COLETA AUTOMÁTICA...
+2025-10-28 02:17:55,466 - INFO - 📅 Últimas datas carregadas para 45 estações
+2025-10-28 02:17:55,475 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 02:17:55,475 - INFO - 📊 Progresso da Coleta:
+2025-10-28 02:17:55,479 - INFO - 🔍 Processando Goiatins (23250000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,479 - INFO - 🔍 Processando UHE Estreito Rio Manoel Alves Grande (23249000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,480 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,480 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,480 - INFO - 🔍 Processando UHE Estreito - Montante 01 (23310000) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 02:17:55,480 - INFO - 🔍 Processando UHE Estreito Rio Farinha (23466000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,480 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,482 - INFO - 🔍 Processando UHE Estreito Barramento (23490000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,482 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,483 - INFO - 🔍 Processando UHE Estreito Jusante (23495000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,483 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,483 - INFO - 🔍 Processando Descarreto (23700000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,484 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,486 - INFO - 🔍 Processando Tucuruí Montande II (23790000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,486 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,487 - INFO - 🔍 Processando Fazenda Rural Zebu (32540000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,487 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,489 - INFO - 🔍 Processando Alto Bonito (32620000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,489 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,489 - INFO - 🔍 Processando Barra do Corda (33250000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,489 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,490 - INFO - 🔍 Processando Santa Vitória (33260010) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,490 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,491 - INFO - 🔍 Processando Joselândia (33273010) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,491 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,492 - INFO - 🔍 Processando Pedreiras II (33281000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,492 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,493 - INFO - 🔍 Processando São Luiz Gonzaga (33286000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,493 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,494 - INFO - 🔍 Processando Bacabal (33290000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,494 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,495 - INFO - 🔍 Processando Grajaú II (33321000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,495 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,496 - INFO - 🔍 Processando Aratoí Grande (33380010) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,496 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,496 - INFO - 🔍 Processando Mirador (33420000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,496 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,498 - INFO - 🔍 Processando Colinas (33480000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,498 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,498 - INFO - 🔍 Processando Montevidéu (33530000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,498 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,499 - INFO - 🔍 Processando Caxias (33550000) - Período: 2025-10-25 a 2025-10-28
+2025-10-28 02:17:55,819 - WARNING -    ⚠️  Nenhum dado encontrado para 33550000 no período 2025-10-25 a 2025-10-28
+2025-10-28 02:17:55,821 - INFO - 🔍 Processando Codó (33590000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,821 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,821 - INFO - 🔍 Processando Coroatá (33630000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,821 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,822 - INFO - 🔍 Processando Cantanhede (33680000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,822 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,822 - INFO - 🔍 Processando Itapecuru-Mirim (33690100) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,822 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,823 - INFO - 🔍 Processando Munim (33730000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,823 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,825 - INFO - 🔍 Processando São Benedito (33760005) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,825 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,825 - INFO - 🔍 Processando Vargem Grande (33770001) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:55,825 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:55,826 - INFO - 🔍 Processando Fazenda União (34010000) - Período: 2024-10-11 a 2025-10-28
+2025-10-28 02:17:55,870 - INFO -    📋 3 registros processados, 3 com dados válidos
+2025-10-28 02:17:55,874 - INFO -    ✅ UHE Estreito - Montante 01: 3/3 registros inseridos
+2025-10-28 02:17:55,875 - INFO - 🔍 Processando UHE Boa Esperança - Montante 02 (34020980) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 02:17:56,145 - WARNING -    ⚠️  Nenhum dado encontrado para 34010000 no período 2024-10-11 a 2025-10-28
+2025-10-28 02:17:56,146 - INFO - 🔍 Processando Alto Parnaíba (34020000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:56,146 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:56,146 - INFO - 🔍 Processando Fazenda Paracati II (34040500) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:56,146 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:56,147 - INFO - 🔍 Processando UHE Boa Esperança - Montante 01 (34059900) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 02:17:56,172 - WARNING -    ⚠️  Nenhum dado encontrado para 34020980 no período 2025-10-28 a 2025-10-28
+2025-10-28 02:17:56,173 - INFO - 🔍 Processando Ribeiro Gonçalves (34060000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:56,174 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:56,174 - INFO - 🔍 Processando Sítio Velho (34070000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:56,174 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:56,175 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 02 (34129980) - Período: 2025-05-24 a 2025-10-28
+2025-10-28 02:17:56,445 - WARNING -    ⚠️  Nenhum dado encontrado para 34059900 no período 2025-10-28 a 2025-10-28
+2025-10-28 02:17:56,446 - INFO - 🔍 Processando Balsas (34130000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:56,446 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:56,446 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 01 (34160900) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:56,447 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:56,448 - INFO - 🔍 Processando São Félix de Balsas (34170000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:56,448 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:56,448 - INFO - 🔍 Processando Barão de Grajaú (34311000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:56,448 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:56,449 - INFO - 🔍 Processando Fazenda Veneza (34660000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:56,449 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:56,449 - INFO - 🔍 Processando Teresina - CHESF (34690000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:56,449 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:56,451 - INFO - 🔍 Processando Coelho Neto (34820000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:56,451 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:56,452 - INFO - 🔍 Processando Luzilândia (34879500) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 02:17:56,452 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 02:17:56,600 - WARNING -    ⚠️  Nenhum dado encontrado para 34129980 no período 2025-05-24 a 2025-10-28
+2025-10-28 02:17:56,606 - INFO - 
+============================================================
+2025-10-28 02:17:56,606 - INFO - 🎉 COLETA CONCLUÍDA!
+2025-10-28 02:17:56,606 - INFO - 📈 Estações processadas: 45
+2025-10-28 02:17:56,606 - INFO - 📊 Registros coletados: 3
+2025-10-28 02:17:56,606 - INFO - 💾 Registros inseridos: 3
+2025-10-28 02:17:56,606 - INFO - 📈 Taxa de sucesso: 100.0%
+2025-10-28 02:17:56,606 - INFO - ⏱️  Tempo total: 3.35 segundos
+2025-10-28 02:17:56,606 - INFO - ⚡ Velocidade: 0.9 registros/segundo
+2025-10-28 02:17:56,970 - INFO - 💽 Total de registros no banco: 15214325
+2025-10-28 02:17:58,162 - INFO - 🏞️  Estações com dados no banco: 45
+2025-10-28 02:17:58,162 - ERROR - ⚠️  Não foi possível verificar estatísticas do banco: no such column: data_insercao
+2025-10-28 02:22:40,236 - INFO - 🛑 Coletor interrompido pelo usuário
+2025-10-28 12:32:03,280 - INFO - ✅ Arquivo de estações carregado: 73 estações encontradas
+2025-10-28 12:32:03,288 - INFO - 🏞️  Total de estações para processar: 45
+2025-10-28 12:32:03,294 - INFO - ✅ Tabelas e índices verificados/criados
+2025-10-28 12:32:03,301 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 12:32:31,492 - INFO - 📅 Últimas datas carregadas para 45 estações
+2025-10-28 12:32:31,494 - INFO - ⏰ INICIANDO AGENDADOR - Coleta a cada 15 minutos
+2025-10-28 12:32:31,494 - INFO - 🚀 Executando coleta inicial...
+2025-10-28 12:32:31,494 - INFO - 🚀 INICIANDO COLETA AUTOMÁTICA...
+2025-10-28 12:32:33,664 - INFO - 📅 Últimas datas carregadas para 45 estações
+2025-10-28 12:32:33,670 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 12:32:33,670 - INFO - 📊 Progresso da Coleta:
+2025-10-28 12:32:33,675 - INFO - 🔍 Processando UHE Estreito Rio Manoel Alves Grande (23249000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,677 - INFO - 🔍 Processando Goiatins (23250000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,677 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,678 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,679 - INFO - 🔍 Processando UHE Estreito - Montante 01 (23310000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,679 - INFO - 🔍 Processando UHE Estreito Rio Farinha (23466000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,679 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,680 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,680 - INFO - 🔍 Processando UHE Estreito Barramento (23490000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,682 - INFO - 🔍 Processando UHE Estreito Jusante (23495000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,682 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,682 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,683 - INFO - 🔍 Processando Descarreto (23700000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,683 - INFO - 🔍 Processando Tucuruí Montande II (23790000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,684 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,684 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,685 - INFO - 🔍 Processando Fazenda Rural Zebu (32540000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,686 - INFO - 🔍 Processando Alto Bonito (32620000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,687 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,687 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,689 - INFO - 🔍 Processando Barra do Corda (33250000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,689 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,690 - INFO - 🔍 Processando Santa Vitória (33260010) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,690 - INFO - 🔍 Processando Joselândia (33273010) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,690 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,690 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,691 - INFO - 🔍 Processando Pedreiras II (33281000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,692 - INFO - 🔍 Processando São Luiz Gonzaga (33286000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,692 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,692 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,694 - INFO - 🔍 Processando Bacabal (33290000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,695 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,696 - INFO - 🔍 Processando Grajaú II (33321000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,697 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,697 - INFO - 🔍 Processando Aratoí Grande (33380010) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,697 - INFO - 🔍 Processando Mirador (33420000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,699 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,699 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,700 - INFO - 🔍 Processando Colinas (33480000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,700 - INFO - 🔍 Processando Montevidéu (33530000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,700 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,700 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,703 - INFO - 🔍 Processando Caxias (33550000) - Período: 2025-10-25 a 2025-10-28
+2025-10-28 12:32:33,704 - INFO - 🔍 Processando Codó (33590000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,704 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,705 - INFO - 🔍 Processando Coroatá (33630000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,708 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,710 - INFO - 🔍 Processando Cantanhede (33680000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,711 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,713 - INFO - 🔍 Processando Itapecuru-Mirim (33690100) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,713 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,714 - INFO - 🔍 Processando Munim (33730000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,714 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,715 - INFO - 🔍 Processando São Benedito (33760005) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,715 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,716 - INFO - 🔍 Processando Vargem Grande (33770001) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:33,716 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:33,716 - INFO - 🔍 Processando Fazenda União (34010000) - Período: 2024-10-11 a 2025-10-28
+2025-10-28 12:32:34,297 - WARNING -    ⚠️  Nenhum dado encontrado para 34010000 no período 2024-10-11 a 2025-10-28
+2025-10-28 12:32:34,299 - INFO - 🔍 Processando UHE Boa Esperança - Montante 02 (34020980) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 12:32:34,363 - INFO -    📋 7 registros processados, 7 com dados válidos
+2025-10-28 12:32:34,371 - INFO -    ✅ Caxias: 7/7 registros inseridos
+2025-10-28 12:32:34,372 - INFO - 🔍 Processando Alto Parnaíba (34020000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:34,372 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:34,373 - INFO - 🔍 Processando Fazenda Paracati II (34040500) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:34,373 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:34,374 - INFO - 🔍 Processando UHE Boa Esperança - Montante 01 (34059900) - Período: 2025-10-28 a 2025-10-28
+2025-10-28 12:32:34,733 - INFO -    📋 11 registros processados, 11 com dados válidos
+2025-10-28 12:32:34,738 - INFO -    ✅ UHE Boa Esperança - Montante 01: 11/11 registros inseridos
+2025-10-28 12:32:34,740 - INFO - 🔍 Processando Ribeiro Gonçalves (34060000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:34,740 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:34,742 - INFO - 🔍 Processando Sítio Velho (34070000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:34,742 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:34,743 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 02 (34129980) - Período: 2025-05-24 a 2025-10-28
+2025-10-28 12:32:34,919 - INFO -    📋 11 registros processados, 11 com dados válidos
+2025-10-28 12:32:34,923 - INFO -    ✅ UHE Boa Esperança - Montante 02: 11/11 registros inseridos
+2025-10-28 12:32:34,924 - INFO - 🔍 Processando Balsas (34130000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:34,925 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:34,925 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 01 (34160900) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:34,925 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:34,927 - INFO - 🔍 Processando São Félix de Balsas (34170000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:34,927 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:34,927 - INFO - 🔍 Processando Barão de Grajaú (34311000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:34,928 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:34,929 - INFO - 🔍 Processando Fazenda Veneza (34660000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:34,929 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:34,930 - INFO - 🔍 Processando Teresina - CHESF (34690000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:34,930 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:34,930 - INFO - 🔍 Processando Coelho Neto (34820000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:34,931 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:34,931 - INFO - 🔍 Processando Luzilândia (34879500) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:32:34,931 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:32:35,061 - WARNING -    ⚠️  Nenhum dado encontrado para 34129980 no período 2025-05-24 a 2025-10-28
+2025-10-28 12:32:35,066 - INFO - 
+============================================================
+2025-10-28 12:32:35,066 - INFO - 🎉 COLETA CONCLUÍDA!
+2025-10-28 12:32:35,066 - INFO - 📈 Estações processadas: 45
+2025-10-28 12:32:35,066 - INFO - 📊 Registros coletados: 29
+2025-10-28 12:32:35,066 - INFO - 💾 Registros inseridos: 29
+2025-10-28 12:32:35,066 - INFO - 📈 Taxa de sucesso: 100.0%
+2025-10-28 12:32:35,066 - INFO - ⏱️  Tempo total: 3.57 segundos
+2025-10-28 12:32:35,067 - INFO - ⚡ Velocidade: 8.1 registros/segundo
+2025-10-28 12:32:42,178 - INFO - 💽 Total de registros no banco: 15214354
+2025-10-28 12:32:43,333 - INFO - 🏞️  Estações com dados no banco: 45
+2025-10-28 12:32:43,333 - ERROR - ⚠️  Não foi possível verificar estatísticas do banco: no such column: data_insercao
+2025-10-28 12:38:33,030 - INFO - 🛑 Coletor interrompido pelo usuário
+2025-10-28 12:38:43,440 - INFO - ✅ Arquivo de estações carregado: 73 estações encontradas
+2025-10-28 12:38:43,441 - INFO - 🏞️  Total de estações para processar: 45
+2025-10-28 12:38:43,443 - INFO - ✅ Tabelas e índices verificados/criados
+2025-10-28 12:38:43,449 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 12:38:45,542 - INFO - 📅 Últimas datas carregadas para 45 estações
+2025-10-28 12:38:45,544 - INFO - ⏰ INICIANDO AGENDADOR - Coleta a cada 15 minutos
+2025-10-28 12:38:45,544 - INFO - 🚀 Executando coleta inicial...
+2025-10-28 12:38:45,544 - INFO - 🚀 INICIANDO COLETA AUTOMÁTICA...
+2025-10-28 12:38:47,695 - INFO - 📅 Últimas datas carregadas para 45 estações
+2025-10-28 12:38:47,703 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 12:38:47,703 - INFO - 📊 Progresso da Coleta:
+2025-10-28 12:38:47,707 - INFO - 🔍 Processando UHE Estreito Rio Manoel Alves Grande (23249000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,707 - INFO - 🔍 Processando Goiatins (23250000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,707 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,708 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,709 - INFO - 🔍 Processando UHE Estreito Rio Farinha (23466000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,710 - INFO - 🔍 Processando UHE Estreito - Montante 01 (23310000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,710 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,710 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,712 - INFO - 🔍 Processando UHE Estreito Barramento (23490000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,712 - INFO - 🔍 Processando UHE Estreito Jusante (23495000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,712 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,712 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,713 - INFO - 🔍 Processando Descarreto (23700000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,713 - INFO - 🔍 Processando Tucuruí Montande II (23790000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,713 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,714 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,714 - INFO - 🔍 Processando Fazenda Rural Zebu (32540000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,715 - INFO - 🔍 Processando Alto Bonito (32620000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,715 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,715 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,715 - INFO - 🔍 Processando Barra do Corda (33250000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,715 - INFO - 🔍 Processando Santa Vitória (33260010) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,717 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,717 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,717 - INFO - 🔍 Processando Joselândia (33273010) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,718 - INFO - 🔍 Processando Pedreiras II (33281000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,718 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,718 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,719 - INFO - 🔍 Processando São Luiz Gonzaga (33286000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,720 - INFO - 🔍 Processando Bacabal (33290000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,720 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,720 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,721 - INFO - 🔍 Processando Grajaú II (33321000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,721 - INFO - 🔍 Processando Aratoí Grande (33380010) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,721 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,721 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,722 - INFO - 🔍 Processando Mirador (33420000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,722 - INFO - 🔍 Processando Colinas (33480000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,722 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,723 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,724 - INFO - 🔍 Processando Montevidéu (33530000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,725 - INFO - 🔍 Processando Caxias (33550000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,725 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,725 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,726 - INFO - 🔍 Processando Codó (33590000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,726 - INFO - 🔍 Processando Coroatá (33630000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,727 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,727 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,727 - INFO - 🔍 Processando Cantanhede (33680000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,727 - INFO - 🔍 Processando Itapecuru-Mirim (33690100) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,727 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,727 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,729 - INFO - 🔍 Processando Munim (33730000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,729 - INFO - 🔍 Processando São Benedito (33760005) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,729 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,730 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,731 - INFO - 🔍 Processando Vargem Grande (33770001) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,731 - INFO - 🔍 Processando Fazenda União (34010000) - Período: 2024-10-11 a 2025-10-28
+2025-10-28 12:38:47,731 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,732 - INFO - 🔍 Processando UHE Boa Esperança - Montante 02 (34020980) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,732 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,733 - INFO - 🔍 Processando Alto Parnaíba (34020000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,733 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,735 - INFO - 🔍 Processando Fazenda Paracati II (34040500) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,736 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,736 - INFO - 🔍 Processando UHE Boa Esperança - Montante 01 (34059900) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,736 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,737 - INFO - 🔍 Processando Ribeiro Gonçalves (34060000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,737 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,737 - INFO - 🔍 Processando Sítio Velho (34070000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:47,737 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:47,739 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 02 (34129980) - Período: 2025-05-24 a 2025-10-28
+2025-10-28 12:38:48,059 - WARNING -    ⚠️  Nenhum dado encontrado para 34010000 no período 2024-10-11 a 2025-10-28
+2025-10-28 12:38:48,060 - INFO - 🔍 Processando Balsas (34130000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:48,060 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:48,061 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 01 (34160900) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:48,062 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:48,062 - INFO - 🔍 Processando São Félix de Balsas (34170000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:48,062 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:48,063 - INFO - 🔍 Processando Barão de Grajaú (34311000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:48,063 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:48,064 - INFO - 🔍 Processando Fazenda Veneza (34660000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:48,064 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:48,064 - INFO - 🔍 Processando Teresina - CHESF (34690000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:48,064 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:48,065 - INFO - 🔍 Processando Coelho Neto (34820000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:48,065 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:48,066 - INFO - 🔍 Processando Luzilândia (34879500) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:38:48,066 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:38:48,127 - WARNING -    ⚠️  Nenhum dado encontrado para 34129980 no período 2025-05-24 a 2025-10-28
+2025-10-28 12:38:48,132 - INFO - 
+============================================================
+2025-10-28 12:38:48,133 - INFO - 🎉 COLETA CONCLUÍDA!
+2025-10-28 12:38:48,133 - INFO - 📈 Estações processadas: 45
+2025-10-28 12:38:48,133 - INFO - 📊 Registros coletados: 0
+2025-10-28 12:38:48,133 - INFO - 💾 Registros inseridos: 0
+2025-10-28 12:38:48,133 - INFO - ⏱️  Tempo total: 2.58 segundos
+2025-10-28 12:38:48,133 - INFO - ⚡ Velocidade: 0.0 registros/segundo
+2025-10-28 12:38:48,489 - INFO - 💽 Total de registros no banco: 15214354
+2025-10-28 12:38:49,714 - INFO - 🏞️  Estações com dados no banco: 45
+2025-10-28 12:38:49,714 - ERROR - ⚠️  Não foi possível verificar estatísticas do banco: no such column: data_insercao
+2025-10-28 12:40:22,510 - INFO - ✅ Arquivo de estações carregado: 73 estações encontradas
+2025-10-28 12:40:22,512 - INFO - 🏞️  Total de estações para processar: 45
+2025-10-28 12:40:22,512 - INFO - ✅ Tabelas e índices verificados/criados
+2025-10-28 12:40:22,518 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 12:40:26,280 - INFO - 📅 Últimas datas carregadas para 45 estações
+2025-10-28 12:40:26,281 - INFO - ⏰ INICIANDO AGENDADOR - Coleta a cada 15 minutos
+2025-10-28 12:40:26,282 - INFO - 🚀 Executando coleta inicial...
+2025-10-28 12:40:26,282 - INFO - 🚀 INICIANDO COLETA AUTOMÁTICA...
+2025-10-28 12:40:28,362 - INFO - 📅 Últimas datas carregadas para 45 estações
+2025-10-28 12:40:28,369 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 12:40:28,370 - INFO - 📊 Progresso da Coleta:
+2025-10-28 12:40:28,374 - INFO - 🔍 Processando UHE Estreito Rio Manoel Alves Grande (23249000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,375 - INFO - 🔍 Processando Goiatins (23250000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,375 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,375 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,376 - INFO - 🔍 Processando UHE Estreito - Montante 01 (23310000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,376 - INFO - 🔍 Processando UHE Estreito Rio Farinha (23466000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,376 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,376 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,377 - INFO - 🔍 Processando UHE Estreito Barramento (23490000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,378 - INFO - 🔍 Processando UHE Estreito Jusante (23495000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,378 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,378 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,379 - INFO - 🔍 Processando Descarreto (23700000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,379 - INFO - 🔍 Processando Tucuruí Montande II (23790000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,379 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,379 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,380 - INFO - 🔍 Processando Fazenda Rural Zebu (32540000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,380 - INFO - 🔍 Processando Alto Bonito (32620000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,380 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,380 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,382 - INFO - 🔍 Processando Barra do Corda (33250000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,382 - INFO - 🔍 Processando Santa Vitória (33260010) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,382 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,382 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,383 - INFO - 🔍 Processando Joselândia (33273010) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,383 - INFO - 🔍 Processando Pedreiras II (33281000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,384 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,384 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,384 - INFO - 🔍 Processando São Luiz Gonzaga (33286000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,385 - INFO - 🔍 Processando Bacabal (33290000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,385 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,385 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,385 - INFO - 🔍 Processando Grajaú II (33321000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,386 - INFO - 🔍 Processando Aratoí Grande (33380010) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,387 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,387 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,387 - INFO - 🔍 Processando Mirador (33420000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,388 - INFO - 🔍 Processando Colinas (33480000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,388 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,388 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,388 - INFO - 🔍 Processando Montevidéu (33530000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,389 - INFO - 🔍 Processando Caxias (33550000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,389 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,389 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,391 - INFO - 🔍 Processando Codó (33590000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,391 - INFO - 🔍 Processando Coroatá (33630000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,391 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,391 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,392 - INFO - 🔍 Processando Cantanhede (33680000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,392 - INFO - 🔍 Processando Itapecuru-Mirim (33690100) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,392 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,392 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,393 - INFO - 🔍 Processando Munim (33730000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,393 - INFO - 🔍 Processando São Benedito (33760005) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,393 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,393 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,394 - INFO - 🔍 Processando Vargem Grande (33770001) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,394 - INFO - 🔍 Processando Fazenda União (34010000) - Período: 2024-10-11 a 2025-10-28
+2025-10-28 12:40:28,395 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,396 - INFO - 🔍 Processando UHE Boa Esperança - Montante 02 (34020980) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,396 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,397 - INFO - 🔍 Processando Alto Parnaíba (34020000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,398 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,399 - INFO - 🔍 Processando Fazenda Paracati II (34040500) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,399 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,400 - INFO - 🔍 Processando UHE Boa Esperança - Montante 01 (34059900) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,400 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,400 - INFO - 🔍 Processando Ribeiro Gonçalves (34060000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,400 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,401 - INFO - 🔍 Processando Sítio Velho (34070000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,401 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,403 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 02 (34129980) - Período: 2025-05-24 a 2025-10-28
+2025-10-28 12:40:28,711 - WARNING -    ⚠️  Nenhum dado encontrado para 34129980 no período 2025-05-24 a 2025-10-28
+2025-10-28 12:40:28,712 - INFO - 🔍 Processando Balsas (34130000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,712 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,713 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 01 (34160900) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,713 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,714 - INFO - 🔍 Processando São Félix de Balsas (34170000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,714 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,715 - INFO - 🔍 Processando Barão de Grajaú (34311000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,715 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,715 - INFO - 🔍 Processando Fazenda Veneza (34660000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,715 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,717 - INFO - 🔍 Processando Teresina - CHESF (34690000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,717 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,718 - INFO - 🔍 Processando Coelho Neto (34820000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,718 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,718 - INFO - 🔍 Processando Luzilândia (34879500) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:40:28,719 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:40:28,768 - WARNING -    ⚠️  Nenhum dado encontrado para 34010000 no período 2024-10-11 a 2025-10-28
+2025-10-28 12:40:28,773 - INFO - 
+============================================================
+2025-10-28 12:40:28,773 - INFO - 🎉 COLETA CONCLUÍDA!
+2025-10-28 12:40:28,774 - INFO - 📈 Estações processadas: 45
+2025-10-28 12:40:28,774 - INFO - 📊 Registros coletados: 0
+2025-10-28 12:40:28,774 - INFO - 💾 Registros inseridos: 0
+2025-10-28 12:40:28,774 - INFO - ⏱️  Tempo total: 2.49 segundos
+2025-10-28 12:40:28,774 - INFO - ⚡ Velocidade: 0.0 registros/segundo
+2025-10-28 12:40:33,486 - INFO - 💽 Total de registros no banco: 15214354
+2025-10-28 12:40:34,668 - INFO - 🏞️  Estações com dados no banco: 45
+2025-10-28 12:40:34,668 - ERROR - ⚠️  Não foi possível verificar estatísticas do banco: no such column: data_insercao
+2025-10-28 12:41:05,960 - INFO - ✅ Arquivo de estações carregado: 73 estações encontradas
+2025-10-28 12:41:05,961 - INFO - 🏞️  Total de estações para processar: 45
+2025-10-28 12:41:05,962 - INFO - ✅ Tabelas e índices verificados/criados
+2025-10-28 12:41:05,968 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 12:41:08,049 - INFO - 📅 Últimas datas carregadas para 45 estações
+2025-10-28 12:41:08,050 - INFO - ⏰ INICIANDO AGENDADOR - Coleta a cada 15 minutos
+2025-10-28 12:41:08,050 - INFO - 🚀 Executando coleta inicial...
+2025-10-28 12:41:08,050 - INFO - 🚀 INICIANDO COLETA AUTOMÁTICA...
+2025-10-28 12:41:10,155 - INFO - 📅 Últimas datas carregadas para 45 estações
+2025-10-28 12:41:10,163 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 12:41:10,163 - INFO - 📊 Progresso da Coleta:
+2025-10-28 12:41:10,167 - INFO - 🔍 Processando Goiatins (23250000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,167 - INFO - 🔍 Processando UHE Estreito Rio Manoel Alves Grande (23249000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,167 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,168 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,168 - INFO - 🔍 Processando UHE Estreito - Montante 01 (23310000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,169 - INFO - 🔍 Processando UHE Estreito Rio Farinha (23466000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,169 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,169 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,169 - INFO - 🔍 Processando UHE Estreito Barramento (23490000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,170 - INFO - 🔍 Processando UHE Estreito Jusante (23495000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,171 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,171 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,171 - INFO - 🔍 Processando Descarreto (23700000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,172 - INFO - 🔍 Processando Tucuruí Montande II (23790000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,172 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,172 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,172 - INFO - 🔍 Processando Fazenda Rural Zebu (32540000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,173 - INFO - 🔍 Processando Alto Bonito (32620000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,173 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,173 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,174 - INFO - 🔍 Processando Barra do Corda (33250000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,174 - INFO - 🔍 Processando Santa Vitória (33260010) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,174 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,174 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,175 - INFO - 🔍 Processando Joselândia (33273010) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,176 - INFO - 🔍 Processando Pedreiras II (33281000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,176 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,176 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,177 - INFO - 🔍 Processando São Luiz Gonzaga (33286000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,177 - INFO - 🔍 Processando Bacabal (33290000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,177 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,177 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,178 - INFO - 🔍 Processando Grajaú II (33321000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,178 - INFO - 🔍 Processando Aratoí Grande (33380010) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,178 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,178 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,180 - INFO - 🔍 Processando Mirador (33420000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,180 - INFO - 🔍 Processando Colinas (33480000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,181 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,181 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,181 - INFO - 🔍 Processando Montevidéu (33530000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,182 - INFO - 🔍 Processando Caxias (33550000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,182 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,182 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,182 - INFO - 🔍 Processando Codó (33590000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,183 - INFO - 🔍 Processando Coroatá (33630000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,184 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,184 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,184 - INFO - 🔍 Processando Cantanhede (33680000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,185 - INFO - 🔍 Processando Itapecuru-Mirim (33690100) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,185 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,185 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,186 - INFO - 🔍 Processando Munim (33730000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,186 - INFO - 🔍 Processando São Benedito (33760005) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,186 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,186 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,188 - INFO - 🔍 Processando Vargem Grande (33770001) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,188 - INFO - 🔍 Processando Fazenda União (34010000) - Período: 2024-10-11 a 2025-10-28
+2025-10-28 12:41:10,188 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,189 - INFO - 🔍 Processando UHE Boa Esperança - Montante 02 (34020980) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,189 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,190 - INFO - 🔍 Processando Alto Parnaíba (34020000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,191 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,192 - INFO - 🔍 Processando Fazenda Paracati II (34040500) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,192 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,193 - INFO - 🔍 Processando UHE Boa Esperança - Montante 01 (34059900) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,193 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,194 - INFO - 🔍 Processando Ribeiro Gonçalves (34060000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,194 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,195 - INFO - 🔍 Processando Sítio Velho (34070000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:10,195 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:10,196 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 02 (34129980) - Período: 2025-05-24 a 2025-10-28
+2025-10-28 12:41:31,270 - WARNING -    ⚠️  Nenhum dado encontrado para 34129980 no período 2025-05-24 a 2025-10-28
+2025-10-28 12:41:31,271 - INFO - 🔍 Processando Balsas (34130000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:31,272 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:31,272 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 01 (34160900) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:31,272 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:31,273 - INFO - 🔍 Processando São Félix de Balsas (34170000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:31,273 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:31,275 - INFO - 🔍 Processando Barão de Grajaú (34311000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:31,275 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:31,275 - INFO - 🔍 Processando Fazenda Veneza (34660000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:31,275 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:31,276 - INFO - 🔍 Processando Teresina - CHESF (34690000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:31,276 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:31,277 - INFO - 🔍 Processando Coelho Neto (34820000) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:31,277 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:31,277 - INFO - 🔍 Processando Luzilândia (34879500) - Período: 2025-10-29 a 2025-10-28
+2025-10-28 12:41:31,277 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:41:31,448 - WARNING -    ⚠️  Nenhum dado encontrado para 34010000 no período 2024-10-11 a 2025-10-28
+2025-10-28 12:41:31,453 - INFO - 
+============================================================
+2025-10-28 12:41:31,453 - INFO - 🎉 COLETA CONCLUÍDA!
+2025-10-28 12:41:31,454 - INFO - 📈 Estações processadas: 45
+2025-10-28 12:41:31,454 - INFO - 📊 Registros coletados: 0
+2025-10-28 12:41:31,454 - INFO - 💾 Registros inseridos: 0
+2025-10-28 12:41:31,454 - INFO - ⏱️  Tempo total: 23.40 segundos
+2025-10-28 12:41:31,454 - INFO - ⚡ Velocidade: 0.0 registros/segundo
+2025-10-28 12:41:31,810 - INFO - 💽 Total de registros no banco: 15214354
+2025-10-28 12:41:32,982 - INFO - 🏞️  Estações com dados no banco: 45
+2025-10-28 12:41:32,983 - ERROR - ⚠️  Não foi possível verificar estatísticas do banco: no such column: data_insercao
+2025-10-28 12:45:30,044 - INFO - 🛑 Coletor interrompido pelo usuário
+2025-10-28 12:45:35,565 - INFO - ✅ Arquivo de estações carregado: 73 estações encontradas
+2025-10-28 12:45:35,566 - INFO - 🏞️  Total de estações para processar: 45
+2025-10-28 12:45:35,566 - INFO - ✅ Tabelas e índices verificados/criados
+2025-10-28 12:45:35,573 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 12:45:37,659 - INFO - 📅 Últimas datas carregadas para 45 estações
+2025-10-28 12:45:37,659 - INFO - 
+Ultima data para 34879500: 2025-10-28 01:30:00
+
+2025-10-28 12:45:37,660 - INFO - ⏰ INICIANDO AGENDADOR - Coleta a cada 15 minutos
+2025-10-28 12:45:37,660 - INFO - 🚀 Executando coleta inicial...
+2025-10-28 12:45:37,660 - INFO - 🚀 INICIANDO COLETA AUTOMÁTICA...
+2025-10-28 12:45:39,756 - INFO - 📅 Últimas datas carregadas para 45 estações
+2025-10-28 12:45:39,756 - INFO - 
+Ultima data para 34879500: 2025-10-28 01:30:00
+
+2025-10-28 12:45:39,764 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 12:45:39,764 - INFO - 📊 Progresso da Coleta:
+2025-10-28 12:45:39,767 - INFO - 🔍 Processando Goiatins (23250000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:39,767 - INFO - 🔍 Processando UHE Estreito Rio Manoel Alves Grande (23249000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:40,158 - INFO -    📋 47 registros processados, 47 com dados válidos
+2025-10-28 12:45:40,164 - INFO -    ✅ Goiatins: 44/47 registros inseridos
+2025-10-28 12:45:40,167 - INFO - 🔍 Processando UHE Estreito - Montante 01 (23310000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:40,176 - INFO -    📋 47 registros processados, 47 com dados válidos
+2025-10-28 12:45:40,182 - INFO -    ✅ UHE Estreito Rio Manoel Alves Grande: 44/47 registros inseridos
+2025-10-28 12:45:40,183 - INFO - 🔍 Processando UHE Estreito Rio Farinha (23466000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:40,575 - INFO -    📋 47 registros processados, 47 com dados válidos
+2025-10-28 12:45:40,581 - INFO -    ✅ UHE Estreito - Montante 01: 44/47 registros inseridos
+2025-10-28 12:45:40,583 - INFO - 🔍 Processando UHE Estreito Barramento (23490000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:40,612 - INFO -    📋 47 registros processados, 47 com dados válidos
+2025-10-28 12:45:40,617 - INFO -    ✅ UHE Estreito Rio Farinha: 44/47 registros inseridos
+2025-10-28 12:45:40,620 - INFO - 🔍 Processando UHE Estreito Jusante (23495000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:40,897 - INFO -    📋 12 registros processados, 12 com dados válidos
+2025-10-28 12:45:40,902 - INFO -    ✅ UHE Estreito Barramento: 11/12 registros inseridos
+2025-10-28 12:45:40,903 - INFO - 🔍 Processando Descarreto (23700000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:41,005 - INFO -    📋 47 registros processados, 47 com dados válidos
+2025-10-28 12:45:41,012 - INFO -    ✅ UHE Estreito Jusante: 44/47 registros inseridos
+2025-10-28 12:45:41,014 - INFO - 🔍 Processando Tucuruí Montande II (23790000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:41,287 - INFO -    📋 50 registros processados, 50 com dados válidos
+2025-10-28 12:45:41,293 - INFO -    ✅ Descarreto: 48/50 registros inseridos
+2025-10-28 12:45:41,296 - INFO - 🔍 Processando Fazenda Rural Zebu (32540000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:42,126 - INFO -    📋 13 registros processados, 13 com dados válidos
+2025-10-28 12:45:42,131 - INFO -    ✅ Tucuruí Montande II: 11/13 registros inseridos
+2025-10-28 12:45:42,133 - INFO - 🔍 Processando Alto Bonito (32620000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:43,159 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:45:43,166 - INFO -    ✅ Fazenda Rural Zebu: 44/48 registros inseridos
+2025-10-28 12:45:43,167 - INFO - 🔍 Processando Barra do Corda (33250000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:44,158 - INFO -    📋 49 registros processados, 49 com dados válidos
+2025-10-28 12:45:44,163 - INFO -    ✅ Alto Bonito: 44/49 registros inseridos
+2025-10-28 12:45:44,165 - INFO - 🔍 Processando Santa Vitória (33260010) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:45,163 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:45:45,169 - INFO -    ✅ Barra do Corda: 44/48 registros inseridos
+2025-10-28 12:45:45,172 - INFO - 🔍 Processando Joselândia (33273010) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:46,169 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:45:46,175 - INFO -    ✅ Santa Vitória: 44/48 registros inseridos
+2025-10-28 12:45:46,178 - INFO - 🔍 Processando Pedreiras II (33281000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:47,158 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:45:47,163 - INFO -    ✅ Joselândia: 44/48 registros inseridos
+2025-10-28 12:45:47,166 - INFO - 🔍 Processando São Luiz Gonzaga (33286000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:48,158 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:45:48,164 - INFO -    ✅ Pedreiras II: 44/48 registros inseridos
+2025-10-28 12:45:48,166 - INFO - 🔍 Processando Bacabal (33290000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:49,302 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:45:49,308 - INFO -    ✅ São Luiz Gonzaga: 44/48 registros inseridos
+2025-10-28 12:45:49,311 - INFO - 🔍 Processando Grajaú II (33321000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:50,164 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:45:50,171 - INFO -    ✅ Bacabal: 44/48 registros inseridos
+2025-10-28 12:45:50,173 - INFO - 🔍 Processando Aratoí Grande (33380010) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:51,156 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:45:51,162 - INFO -    ✅ Grajaú II: 44/48 registros inseridos
+2025-10-28 12:45:51,165 - INFO - 🔍 Processando Mirador (33420000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:52,163 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:45:52,170 - INFO -    ✅ Aratoí Grande: 44/48 registros inseridos
+2025-10-28 12:45:52,172 - INFO - 🔍 Processando Colinas (33480000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:53,156 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:45:53,163 - INFO -    ✅ Mirador: 44/48 registros inseridos
+2025-10-28 12:45:53,165 - INFO - 🔍 Processando Montevidéu (33530000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:54,196 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:45:54,202 - INFO -    ✅ Colinas: 44/48 registros inseridos
+2025-10-28 12:45:54,204 - INFO - 🔍 Processando Caxias (33550000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:55,167 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:45:55,172 - INFO -    ✅ Montevidéu: 44/48 registros inseridos
+2025-10-28 12:45:55,175 - INFO - 🔍 Processando Codó (33590000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:56,146 - INFO -    📋 1 registros processados, 1 com dados válidos
+2025-10-28 12:45:56,150 - INFO -    ✅ Caxias: 0/1 registros inseridos
+2025-10-28 12:45:56,151 - INFO - 🔍 Processando Coroatá (33630000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:57,155 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:45:57,160 - INFO -    ✅ Codó: 44/48 registros inseridos
+2025-10-28 12:45:57,162 - INFO - 🔍 Processando Cantanhede (33680000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:58,159 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:45:58,262 - INFO -    ✅ Coroatá: 44/48 registros inseridos
+2025-10-28 12:45:58,265 - INFO - 🔍 Processando Itapecuru-Mirim (33690100) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:45:59,159 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:45:59,164 - INFO -    ✅ Cantanhede: 44/48 registros inseridos
+2025-10-28 12:45:59,167 - INFO - 🔍 Processando Munim (33730000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:46:00,163 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:46:00,169 - INFO -    ✅ Itapecuru-Mirim: 44/48 registros inseridos
+2025-10-28 12:46:00,172 - INFO - 🔍 Processando São Benedito (33760005) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:46:01,159 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:46:01,164 - INFO -    ✅ Munim: 40/48 registros inseridos
+2025-10-28 12:46:01,167 - INFO - 🔍 Processando Vargem Grande (33770001) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:46:02,157 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:46:02,162 - INFO -    ✅ São Benedito: 40/48 registros inseridos
+2025-10-28 12:46:02,166 - INFO - 🔍 Processando Fazenda União (34010000) - Período: 2025-10-28 a 2024-10-11
+2025-10-28 12:46:02,166 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:46:02,166 - INFO - 🔍 Processando UHE Boa Esperança - Montante 02 (34020980) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:46:03,092 - INFO -    📋 32 registros processados, 32 com dados válidos
+2025-10-28 12:46:03,097 - INFO -    ✅ Vargem Grande: 24/32 registros inseridos
+2025-10-28 12:46:03,100 - INFO - 🔍 Processando Alto Parnaíba (34020000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:46:04,092 - INFO -    📋 11 registros processados, 11 com dados válidos
+2025-10-28 12:46:04,096 - INFO -    ✅ UHE Boa Esperança - Montante 02: 0/11 registros inseridos
+2025-10-28 12:46:04,097 - INFO - 🔍 Processando Fazenda Paracati II (34040500) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:46:05,162 - INFO -    📋 44 registros processados, 44 com dados válidos
+2025-10-28 12:46:05,168 - INFO -    ✅ Alto Parnaíba: 40/44 registros inseridos
+2025-10-28 12:46:05,171 - INFO - 🔍 Processando UHE Boa Esperança - Montante 01 (34059900) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:46:06,167 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:46:06,171 - INFO -    ✅ Fazenda Paracati II: 44/48 registros inseridos
+2025-10-28 12:46:06,174 - INFO - 🔍 Processando Ribeiro Gonçalves (34060000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:46:07,113 - INFO -    📋 11 registros processados, 11 com dados válidos
+2025-10-28 12:46:07,117 - INFO -    ✅ UHE Boa Esperança - Montante 01: 0/11 registros inseridos
+2025-10-28 12:46:07,118 - INFO - 🔍 Processando Sítio Velho (34070000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:46:08,156 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:46:08,162 - INFO -    ✅ Ribeiro Gonçalves: 40/48 registros inseridos
+2025-10-28 12:46:08,164 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 02 (34129980) - Período: 2025-10-28 a 2025-05-24
+2025-10-28 12:46:08,164 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 12:46:08,164 - INFO - 🔍 Processando Balsas (34130000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:46:09,159 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:46:09,164 - INFO -    ✅ Sítio Velho: 40/48 registros inseridos
+2025-10-28 12:46:09,169 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 01 (34160900) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:46:10,164 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:46:10,169 - INFO -    ✅ Balsas: 40/48 registros inseridos
+2025-10-28 12:46:10,172 - INFO - 🔍 Processando São Félix de Balsas (34170000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:46:11,110 - INFO -    📋 13 registros processados, 13 com dados válidos
+2025-10-28 12:46:11,114 - INFO -    ✅ UHE Boa Esperança - Balsas 01: 11/13 registros inseridos
+2025-10-28 12:46:11,116 - INFO - 🔍 Processando Barão de Grajaú (34311000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:46:12,159 - INFO -    📋 49 registros processados, 49 com dados válidos
+2025-10-28 12:46:12,164 - INFO -    ✅ São Félix de Balsas: 48/49 registros inseridos
+2025-10-28 12:46:12,167 - INFO - 🔍 Processando Fazenda Veneza (34660000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:46:13,160 - INFO -    📋 49 registros processados, 49 com dados válidos
+2025-10-28 12:46:13,166 - INFO -    ✅ Barão de Grajaú: 44/49 registros inseridos
+2025-10-28 12:46:13,168 - INFO - 🔍 Processando Teresina - CHESF (34690000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:46:14,161 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:46:14,166 - INFO -    ✅ Fazenda Veneza: 44/48 registros inseridos
+2025-10-28 12:46:14,168 - INFO - 🔍 Processando Coelho Neto (34820000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:46:15,159 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:46:15,164 - INFO -    ✅ Teresina - CHESF: 40/48 registros inseridos
+2025-10-28 12:46:15,165 - INFO - 🔍 Processando Luzilândia (34879500) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 12:46:16,161 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 12:46:16,168 - INFO -    ✅ Coelho Neto: 44/48 registros inseridos
+2025-10-28 12:46:17,164 - INFO -    📋 51 registros processados, 51 com dados válidos
+2025-10-28 12:46:17,169 - INFO -    ✅ Luzilândia: 44/51 registros inseridos
+2025-10-28 12:46:17,175 - INFO - 
+============================================================
+2025-10-28 12:46:17,175 - INFO - 🎉 COLETA CONCLUÍDA!
+2025-10-28 12:46:17,175 - INFO - 📈 Estações processadas: 45
+2025-10-28 12:46:17,175 - INFO - 📊 Registros coletados: 1820
+2025-10-28 12:46:17,175 - INFO - 💾 Registros inseridos: 1621
+2025-10-28 12:46:17,175 - INFO - 📈 Taxa de sucesso: 89.1%
+2025-10-28 12:46:17,175 - INFO - ⏱️  Tempo total: 39.51 segundos
+2025-10-28 12:46:17,175 - INFO - ⚡ Velocidade: 41.0 registros/segundo
+2025-10-28 12:46:17,525 - INFO - 💽 Total de registros no banco: 15215975
+2025-10-28 12:46:18,686 - INFO - 🏞️  Estações com dados no banco: 45
+2025-10-28 12:46:18,686 - ERROR - ⚠️  Não foi possível verificar estatísticas do banco: no such column: data_insercao
+2025-10-28 13:00:37,974 - INFO - 🚀 INICIANDO COLETA AUTOMÁTICA...
+2025-10-28 13:00:40,046 - INFO - 📅 Últimas datas carregadas para 45 estações
+2025-10-28 13:00:40,047 - INFO - 
+Ultima data para 34879500: 2025-10-28 12:30:00
+
+2025-10-28 13:00:40,053 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 13:00:40,054 - INFO - 📊 Progresso da Coleta:
+2025-10-28 13:00:40,056 - INFO - 🔍 Processando Goiatins (23250000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:40,057 - INFO - 🔍 Processando UHE Estreito Rio Manoel Alves Grande (23249000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:40,463 - INFO -    📋 51 registros processados, 51 com dados válidos
+2025-10-28 13:00:40,467 - INFO -    ✅ Goiatins: 4/51 registros inseridos
+2025-10-28 13:00:40,470 - INFO - 🔍 Processando UHE Estreito - Montante 01 (23310000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:40,497 - INFO -    📋 51 registros processados, 51 com dados válidos
+2025-10-28 13:00:40,500 - INFO -    ✅ UHE Estreito Rio Manoel Alves Grande: 4/51 registros inseridos
+2025-10-28 13:00:40,504 - INFO - 🔍 Processando UHE Estreito Rio Farinha (23466000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:40,889 - INFO -    📋 51 registros processados, 51 com dados válidos
+2025-10-28 13:00:40,894 - INFO -    ✅ UHE Estreito Rio Farinha: 4/51 registros inseridos
+2025-10-28 13:00:40,895 - INFO - 🔍 Processando UHE Estreito Barramento (23490000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:40,920 - INFO -    📋 47 registros processados, 47 com dados válidos
+2025-10-28 13:00:40,923 - INFO -    ✅ UHE Estreito - Montante 01: 0/47 registros inseridos
+2025-10-28 13:00:40,926 - INFO - 🔍 Processando UHE Estreito Jusante (23495000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:41,208 - INFO -    📋 12 registros processados, 12 com dados válidos
+2025-10-28 13:00:41,211 - INFO -    ✅ UHE Estreito Barramento: 0/12 registros inseridos
+2025-10-28 13:00:41,213 - INFO - 🔍 Processando Descarreto (23700000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:41,309 - INFO -    📋 51 registros processados, 51 com dados válidos
+2025-10-28 13:00:41,314 - INFO -    ✅ UHE Estreito Jusante: 4/51 registros inseridos
+2025-10-28 13:00:41,316 - INFO - 🔍 Processando Tucuruí Montande II (23790000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:41,598 - INFO -    📋 50 registros processados, 50 com dados válidos
+2025-10-28 13:00:41,602 - INFO -    ✅ Descarreto: 0/50 registros inseridos
+2025-10-28 13:00:41,604 - INFO - 🔍 Processando Fazenda Rural Zebu (32540000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:42,366 - INFO -    📋 13 registros processados, 13 com dados válidos
+2025-10-28 13:00:42,370 - INFO -    ✅ Tucuruí Montande II: 0/13 registros inseridos
+2025-10-28 13:00:42,372 - INFO - 🔍 Processando Alto Bonito (32620000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:43,508 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:00:43,513 - INFO -    ✅ Fazenda Rural Zebu: 4/52 registros inseridos
+2025-10-28 13:00:43,516 - INFO - 🔍 Processando Barra do Corda (33250000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:44,450 - INFO -    📋 49 registros processados, 49 com dados válidos
+2025-10-28 13:00:44,453 - INFO -    ✅ Alto Bonito: 0/49 registros inseridos
+2025-10-28 13:00:44,455 - INFO - 🔍 Processando Santa Vitória (33260010) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:45,452 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 13:00:45,455 - INFO -    ✅ Barra do Corda: 0/48 registros inseridos
+2025-10-28 13:00:45,456 - INFO - 🔍 Processando Joselândia (33273010) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:46,441 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:00:46,445 - INFO -    ✅ Santa Vitória: 4/52 registros inseridos
+2025-10-28 13:00:46,447 - INFO - 🔍 Processando Pedreiras II (33281000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:47,445 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:00:47,449 - INFO -    ✅ Joselândia: 4/52 registros inseridos
+2025-10-28 13:00:47,452 - INFO - 🔍 Processando São Luiz Gonzaga (33286000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:48,460 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:00:48,464 - INFO -    ✅ Pedreiras II: 4/52 registros inseridos
+2025-10-28 13:00:48,466 - INFO - 🔍 Processando Bacabal (33290000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:49,441 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 13:00:49,444 - INFO -    ✅ São Luiz Gonzaga: 0/48 registros inseridos
+2025-10-28 13:00:49,446 - INFO - 🔍 Processando Grajaú II (33321000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:50,443 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:00:50,447 - INFO -    ✅ Bacabal: 4/52 registros inseridos
+2025-10-28 13:00:50,449 - INFO - 🔍 Processando Aratoí Grande (33380010) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:51,447 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:00:51,450 - INFO -    ✅ Grajaú II: 4/52 registros inseridos
+2025-10-28 13:00:51,453 - INFO - 🔍 Processando Mirador (33420000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:52,444 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:00:52,451 - INFO -    ✅ Aratoí Grande: 4/52 registros inseridos
+2025-10-28 13:00:52,454 - INFO - 🔍 Processando Colinas (33480000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:53,442 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:00:53,446 - INFO -    ✅ Mirador: 4/52 registros inseridos
+2025-10-28 13:00:53,448 - INFO - 🔍 Processando Montevidéu (33530000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:54,442 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 13:00:54,445 - INFO -    ✅ Colinas: 0/48 registros inseridos
+2025-10-28 13:00:54,447 - INFO - 🔍 Processando Caxias (33550000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:55,444 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:00:55,448 - INFO -    ✅ Montevidéu: 4/52 registros inseridos
+2025-10-28 13:00:55,451 - INFO - 🔍 Processando Codó (33590000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:56,366 - INFO -    📋 1 registros processados, 1 com dados válidos
+2025-10-28 13:00:56,369 - INFO -    ✅ Caxias: 0/1 registros inseridos
+2025-10-28 13:00:56,370 - INFO - 🔍 Processando Coroatá (33630000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:57,442 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:00:57,447 - INFO -    ✅ Codó: 4/52 registros inseridos
+2025-10-28 13:00:57,449 - INFO - 🔍 Processando Cantanhede (33680000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:58,448 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:00:58,451 - INFO -    ✅ Coroatá: 4/52 registros inseridos
+2025-10-28 13:00:58,454 - INFO - 🔍 Processando Itapecuru-Mirim (33690100) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:00:59,446 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:00:59,448 - INFO -    ✅ Cantanhede: 4/52 registros inseridos
+2025-10-28 13:00:59,451 - INFO - 🔍 Processando Munim (33730000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:01:00,441 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:01:00,445 - INFO -    ✅ Itapecuru-Mirim: 4/52 registros inseridos
+2025-10-28 13:01:00,446 - INFO - 🔍 Processando São Benedito (33760005) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:01:01,445 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:01:01,448 - INFO -    ✅ Munim: 4/52 registros inseridos
+2025-10-28 13:01:01,450 - INFO - 🔍 Processando Vargem Grande (33770001) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:01:02,456 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:01:02,459 - INFO -    ✅ São Benedito: 4/52 registros inseridos
+2025-10-28 13:01:02,462 - INFO - 🔍 Processando Fazenda União (34010000) - Período: 2025-10-28 a 2024-10-11
+2025-10-28 13:01:02,462 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 13:01:02,463 - INFO - 🔍 Processando UHE Boa Esperança - Montante 02 (34020980) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:01:03,444 - INFO -    📋 40 registros processados, 40 com dados válidos
+2025-10-28 13:01:03,448 - INFO -    ✅ Vargem Grande: 8/40 registros inseridos
+2025-10-28 13:01:03,450 - INFO - 🔍 Processando Alto Parnaíba (34020000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:01:04,368 - INFO -    📋 11 registros processados, 11 com dados válidos
+2025-10-28 13:01:04,370 - INFO -    ✅ UHE Boa Esperança - Montante 02: 0/11 registros inseridos
+2025-10-28 13:01:04,372 - INFO - 🔍 Processando Fazenda Paracati II (34040500) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:01:05,442 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 13:01:05,445 - INFO -    ✅ Alto Parnaíba: 4/48 registros inseridos
+2025-10-28 13:01:05,448 - INFO - 🔍 Processando UHE Boa Esperança - Montante 01 (34059900) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:01:18,171 - INFO -    📋 11 registros processados, 11 com dados válidos
+2025-10-28 13:01:18,175 - INFO -    ✅ UHE Boa Esperança - Montante 01: 0/11 registros inseridos
+2025-10-28 13:01:18,177 - INFO - 🔍 Processando Ribeiro Gonçalves (34060000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:01:18,233 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:01:18,237 - INFO -    ✅ Fazenda Paracati II: 4/52 registros inseridos
+2025-10-28 13:01:18,239 - INFO - 🔍 Processando Sítio Velho (34070000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:01:18,590 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:01:18,599 - INFO -    ✅ Ribeiro Gonçalves: 4/52 registros inseridos
+2025-10-28 13:01:18,601 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 02 (34129980) - Período: 2025-10-28 a 2025-05-24
+2025-10-28 13:01:18,601 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 13:01:18,602 - INFO - 🔍 Processando Balsas (34130000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:01:18,765 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:01:18,769 - INFO -    ✅ Sítio Velho: 4/52 registros inseridos
+2025-10-28 13:01:18,772 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 01 (34160900) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:01:18,983 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:01:18,986 - INFO -    ✅ Balsas: 4/52 registros inseridos
+2025-10-28 13:01:18,988 - INFO - 🔍 Processando São Félix de Balsas (34170000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:01:19,084 - INFO -    📋 13 registros processados, 13 com dados válidos
+2025-10-28 13:01:19,087 - INFO -    ✅ UHE Boa Esperança - Balsas 01: 0/13 registros inseridos
+2025-10-28 13:01:19,089 - INFO - 🔍 Processando Barão de Grajaú (34311000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:01:19,423 - INFO -    📋 49 registros processados, 49 com dados válidos
+2025-10-28 13:01:19,427 - INFO -    ✅ São Félix de Balsas: 0/49 registros inseridos
+2025-10-28 13:01:19,428 - INFO - 🔍 Processando Fazenda Veneza (34660000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:01:19,529 - INFO -    📋 49 registros processados, 49 com dados válidos
+2025-10-28 13:01:19,532 - INFO -    ✅ Barão de Grajaú: 0/49 registros inseridos
+2025-10-28 13:01:19,535 - INFO - 🔍 Processando Teresina - CHESF (34690000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:01:19,809 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:01:19,812 - INFO -    ✅ Fazenda Veneza: 4/52 registros inseridos
+2025-10-28 13:01:19,814 - INFO - 🔍 Processando Coelho Neto (34820000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:01:20,570 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:01:20,574 - INFO -    ✅ Teresina - CHESF: 4/52 registros inseridos
+2025-10-28 13:01:20,577 - INFO - 🔍 Processando Luzilândia (34879500) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:01:21,568 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:01:21,572 - INFO -    ✅ Coelho Neto: 4/52 registros inseridos
+2025-10-28 13:01:22,571 - INFO -    📋 51 registros processados, 51 com dados válidos
+2025-10-28 13:01:22,574 - INFO -    ✅ Luzilândia: 0/51 registros inseridos
+2025-10-28 13:01:22,580 - INFO - 
+============================================================
+2025-10-28 13:01:22,580 - INFO - 🎉 COLETA CONCLUÍDA!
+2025-10-28 13:01:22,580 - INFO - 📈 Estações processadas: 45
+2025-10-28 13:01:22,580 - INFO - 📊 Registros coletados: 1936
+2025-10-28 13:01:22,580 - INFO - 💾 Registros inseridos: 116
+2025-10-28 13:01:22,580 - INFO - 📈 Taxa de sucesso: 6.0%
+2025-10-28 13:01:22,580 - INFO - ⏱️  Tempo total: 44.60 segundos
+2025-10-28 13:01:22,580 - INFO - ⚡ Velocidade: 2.6 registros/segundo
+2025-10-28 13:01:22,929 - INFO - 💽 Total de registros no banco: 15216091
+2025-10-28 13:01:24,083 - INFO - 🏞️  Estações com dados no banco: 45
+2025-10-28 13:01:24,083 - ERROR - ⚠️  Não foi possível verificar estatísticas do banco: no such column: data_insercao
+2025-10-28 13:16:24,392 - INFO - 🚀 INICIANDO COLETA AUTOMÁTICA...
+2025-10-28 13:16:26,469 - INFO - 📅 Últimas datas carregadas para 45 estações
+2025-10-28 13:16:26,469 - INFO - 
+Ultima data para 34879500: 2025-10-28 12:30:00
+
+2025-10-28 13:16:26,476 - INFO - ✅ Cadastro atualizado: 45 estações
+2025-10-28 13:16:26,476 - INFO - 📊 Progresso da Coleta:
+2025-10-28 13:16:26,480 - INFO - 🔍 Processando UHE Estreito Rio Manoel Alves Grande (23249000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:26,483 - INFO - 🔍 Processando Goiatins (23250000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:26,897 - INFO -    📋 51 registros processados, 51 com dados válidos
+2025-10-28 13:16:26,901 - INFO -    ✅ Goiatins: 0/51 registros inseridos
+2025-10-28 13:16:26,904 - INFO - 🔍 Processando UHE Estreito - Montante 01 (23310000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:26,934 - INFO -    📋 51 registros processados, 51 com dados válidos
+2025-10-28 13:16:26,937 - INFO -    ✅ UHE Estreito Rio Manoel Alves Grande: 0/51 registros inseridos
+2025-10-28 13:16:26,939 - INFO - 🔍 Processando UHE Estreito Rio Farinha (23466000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:27,308 - INFO -    📋 47 registros processados, 47 com dados válidos
+2025-10-28 13:16:27,312 - INFO -    ✅ UHE Estreito - Montante 01: 0/47 registros inseridos
+2025-10-28 13:16:27,314 - INFO - 🔍 Processando UHE Estreito Barramento (23490000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:27,402 - INFO -    📋 51 registros processados, 51 com dados válidos
+2025-10-28 13:16:27,405 - INFO -    ✅ UHE Estreito Rio Farinha: 0/51 registros inseridos
+2025-10-28 13:16:27,407 - INFO - 🔍 Processando UHE Estreito Jusante (23495000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:27,632 - INFO -    📋 12 registros processados, 12 com dados válidos
+2025-10-28 13:16:27,634 - INFO -    ✅ UHE Estreito Barramento: 0/12 registros inseridos
+2025-10-28 13:16:27,637 - INFO - 🔍 Processando Descarreto (23700000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:27,812 - INFO -    📋 51 registros processados, 51 com dados válidos
+2025-10-28 13:16:27,815 - INFO -    ✅ UHE Estreito Jusante: 0/51 registros inseridos
+2025-10-28 13:16:27,817 - INFO - 🔍 Processando Tucuruí Montande II (23790000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:28,014 - INFO -    📋 50 registros processados, 50 com dados válidos
+2025-10-28 13:16:28,017 - INFO -    ✅ Descarreto: 0/50 registros inseridos
+2025-10-28 13:16:28,020 - INFO - 🔍 Processando Fazenda Rural Zebu (32540000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:28,798 - INFO -    📋 14 registros processados, 14 com dados válidos
+2025-10-28 13:16:28,802 - INFO -    ✅ Tucuruí Montande II: 1/14 registros inseridos
+2025-10-28 13:16:28,803 - INFO - 🔍 Processando Alto Bonito (32620000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:29,873 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:16:29,879 - INFO -    ✅ Fazenda Rural Zebu: 0/52 registros inseridos
+2025-10-28 13:16:29,881 - INFO - 🔍 Processando Barra do Corda (33250000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:30,871 - INFO -    📋 49 registros processados, 49 com dados válidos
+2025-10-28 13:16:30,875 - INFO -    ✅ Alto Bonito: 0/49 registros inseridos
+2025-10-28 13:16:30,876 - INFO - 🔍 Processando Santa Vitória (33260010) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:31,871 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:16:31,876 - INFO -    ✅ Barra do Corda: 4/52 registros inseridos
+2025-10-28 13:16:31,879 - INFO - 🔍 Processando Joselândia (33273010) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:32,872 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:16:32,874 - INFO -    ✅ Santa Vitória: 0/52 registros inseridos
+2025-10-28 13:16:32,876 - INFO - 🔍 Processando Pedreiras II (33281000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:33,871 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:16:33,874 - INFO -    ✅ Joselândia: 0/52 registros inseridos
+2025-10-28 13:16:33,875 - INFO - 🔍 Processando São Luiz Gonzaga (33286000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:34,873 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:16:34,876 - INFO -    ✅ Pedreiras II: 0/52 registros inseridos
+2025-10-28 13:16:34,878 - INFO - 🔍 Processando Bacabal (33290000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:46,922 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:16:46,931 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:16:46,941 - INFO -    ✅ Bacabal: 0/52 registros inseridos
+2025-10-28 13:16:46,943 - INFO - 🔍 Processando Grajaú II (33321000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:46,958 - INFO -    ✅ São Luiz Gonzaga: 4/52 registros inseridos
+2025-10-28 13:16:46,960 - INFO - 🔍 Processando Aratoí Grande (33380010) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:47,431 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:16:47,435 - INFO -    ✅ Aratoí Grande: 0/52 registros inseridos
+2025-10-28 13:16:47,437 - INFO - 🔍 Processando Mirador (33420000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:47,535 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:16:47,538 - INFO -    ✅ Grajaú II: 0/52 registros inseridos
+2025-10-28 13:16:47,541 - INFO - 🔍 Processando Colinas (33480000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:47,822 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:16:47,826 - INFO -    ✅ Mirador: 0/52 registros inseridos
+2025-10-28 13:16:47,827 - INFO - 🔍 Processando Montevidéu (33530000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:47,935 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:16:47,939 - INFO -    ✅ Colinas: 4/52 registros inseridos
+2025-10-28 13:16:47,942 - INFO - 🔍 Processando Caxias (33550000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:48,238 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:16:48,241 - INFO -    ✅ Montevidéu: 0/52 registros inseridos
+2025-10-28 13:16:48,243 - INFO - 🔍 Processando Codó (33590000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:48,271 - INFO -    📋 1 registros processados, 1 com dados válidos
+2025-10-28 13:16:48,275 - INFO -    ✅ Caxias: 0/1 registros inseridos
+2025-10-28 13:16:48,277 - INFO - 🔍 Processando Coroatá (33630000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:48,637 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:16:48,642 - INFO -    ✅ Codó: 0/52 registros inseridos
+2025-10-28 13:16:48,643 - INFO - 🔍 Processando Cantanhede (33680000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:49,345 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:16:49,349 - INFO -    ✅ Coroatá: 0/52 registros inseridos
+2025-10-28 13:16:49,352 - INFO - 🔍 Processando Itapecuru-Mirim (33690100) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:50,346 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:16:50,350 - INFO -    ✅ Cantanhede: 0/52 registros inseridos
+2025-10-28 13:16:50,352 - INFO - 🔍 Processando Munim (33730000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:51,353 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:16:51,357 - INFO -    ✅ Itapecuru-Mirim: 0/52 registros inseridos
+2025-10-28 13:16:51,360 - INFO - 🔍 Processando São Benedito (33760005) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:52,351 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:16:52,353 - INFO -    ✅ Munim: 0/52 registros inseridos
+2025-10-28 13:16:52,356 - INFO - 🔍 Processando Vargem Grande (33770001) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:53,345 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:16:53,347 - INFO -    ✅ São Benedito: 0/52 registros inseridos
+2025-10-28 13:16:53,350 - INFO - 🔍 Processando Fazenda União (34010000) - Período: 2025-10-28 a 2024-10-11
+2025-10-28 13:16:53,350 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 13:16:53,351 - INFO - 🔍 Processando UHE Boa Esperança - Montante 02 (34020980) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:54,349 - INFO -    📋 40 registros processados, 40 com dados válidos
+2025-10-28 13:16:54,353 - INFO -    ✅ Vargem Grande: 0/40 registros inseridos
+2025-10-28 13:16:54,355 - INFO - 🔍 Processando Alto Parnaíba (34020000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:55,278 - INFO -    📋 11 registros processados, 11 com dados válidos
+2025-10-28 13:16:55,281 - INFO -    ✅ UHE Boa Esperança - Montante 02: 0/11 registros inseridos
+2025-10-28 13:16:55,283 - INFO - 🔍 Processando Fazenda Paracati II (34040500) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:56,346 - INFO -    📋 48 registros processados, 48 com dados válidos
+2025-10-28 13:16:56,350 - INFO -    ✅ Alto Parnaíba: 0/48 registros inseridos
+2025-10-28 13:16:56,352 - INFO - 🔍 Processando UHE Boa Esperança - Montante 01 (34059900) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:57,348 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:16:57,351 - INFO -    ✅ Fazenda Paracati II: 0/52 registros inseridos
+2025-10-28 13:16:57,353 - INFO - 🔍 Processando Ribeiro Gonçalves (34060000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:58,271 - INFO -    📋 11 registros processados, 11 com dados válidos
+2025-10-28 13:16:58,275 - INFO -    ✅ UHE Boa Esperança - Montante 01: 0/11 registros inseridos
+2025-10-28 13:16:58,278 - INFO - 🔍 Processando Sítio Velho (34070000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:16:59,349 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:16:59,353 - INFO -    ✅ Ribeiro Gonçalves: 0/52 registros inseridos
+2025-10-28 13:16:59,355 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 02 (34129980) - Período: 2025-10-28 a 2025-05-24
+2025-10-28 13:16:59,356 - INFO -    ⏩ Estação já atualizada, pulando...
+2025-10-28 13:16:59,356 - INFO - 🔍 Processando Balsas (34130000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:17:00,346 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:17:00,351 - INFO -    ✅ Sítio Velho: 0/52 registros inseridos
+2025-10-28 13:17:00,352 - INFO - 🔍 Processando UHE Boa Esperança - Balsas 01 (34160900) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:17:01,345 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:17:01,348 - INFO -    ✅ Balsas: 0/52 registros inseridos
+2025-10-28 13:17:01,350 - INFO - 🔍 Processando São Félix de Balsas (34170000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:17:02,271 - INFO -    📋 14 registros processados, 14 com dados válidos
+2025-10-28 13:17:02,274 - INFO -    ✅ UHE Boa Esperança - Balsas 01: 1/14 registros inseridos
+2025-10-28 13:17:02,276 - INFO - 🔍 Processando Barão de Grajaú (34311000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:17:03,351 - INFO -    📋 53 registros processados, 53 com dados válidos
+2025-10-28 13:17:03,357 - INFO -    ✅ São Félix de Balsas: 4/53 registros inseridos
+2025-10-28 13:17:03,358 - INFO - 🔍 Processando Fazenda Veneza (34660000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:17:04,347 - INFO -    📋 53 registros processados, 53 com dados válidos
+2025-10-28 13:17:04,351 - INFO -    ✅ Barão de Grajaú: 4/53 registros inseridos
+2025-10-28 13:17:04,353 - INFO - 🔍 Processando Teresina - CHESF (34690000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:17:05,348 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:17:05,352 - INFO -    ✅ Fazenda Veneza: 0/52 registros inseridos
+2025-10-28 13:17:05,353 - INFO - 🔍 Processando Coelho Neto (34820000) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:17:06,344 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:17:06,348 - INFO -    ✅ Teresina - CHESF: 0/52 registros inseridos
+2025-10-28 13:17:06,351 - INFO - 🔍 Processando Luzilândia (34879500) - Período: 2025-10-28 a 2025-10-29
+2025-10-28 13:17:07,365 - INFO -    📋 52 registros processados, 52 com dados válidos
+2025-10-28 13:17:07,369 - INFO -    ✅ Coelho Neto: 0/52 registros inseridos
+2025-10-28 13:17:08,371 - INFO -    📋 51 registros processados, 51 com dados válidos
+2025-10-28 13:17:08,373 - INFO -    ✅ Luzilândia: 0/51 registros inseridos
+2025-10-28 13:17:08,378 - INFO - 
+============================================================
+2025-10-28 13:17:08,379 - INFO - 🎉 COLETA CONCLUÍDA!
+2025-10-28 13:17:08,379 - INFO - 📈 Estações processadas: 45
+2025-10-28 13:17:08,380 - INFO - 📊 Registros coletados: 1958
+2025-10-28 13:17:08,380 - INFO - 💾 Registros inseridos: 22
+2025-10-28 13:17:08,380 - INFO - 📈 Taxa de sucesso: 1.1%
+2025-10-28 13:17:08,380 - INFO - ⏱️  Tempo total: 43.98 segundos
+2025-10-28 13:17:08,380 - INFO - ⚡ Velocidade: 0.5 registros/segundo
+2025-10-28 13:17:08,730 - INFO - 💽 Total de registros no banco: 15216113
+2025-10-28 13:17:09,887 - INFO - 🏞️  Estações com dados no banco: 45
+2025-10-28 13:17:09,888 - ERROR - ⚠️  Não foi possível verificar estatísticas do banco: no such column: data_insercao
+2025-10-28 13:25:24,393 - INFO - 🛑 Coletor interrompido pelo usuário

@@ -1,0 +1,1431 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydroMonitor - Sistema de Monitoramento de Rios</title>
+    
+    <!-- 🔥 FAVICON - Ícone da aba -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💧</text></svg>">
+    <!-- Fallback para outros navegadores -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            /* Paleta Aquática Aprimorada (Claro) */
+            --primary-color: #0077b6; /* Azul Oceano */
+            --primary-dark: #00509d; /* Azul Marinho para Hover */
+            --secondary-color: #64748b;
+            --success-color: #10b981;
+            --warning-color: #ffc300; /* Amarelo mais vibrante */
+            --danger-color: #ef4444;
+            --bg-color: #e8f7ff; /* Fundo principal: Branco Suave Azulado */
+            --bg-secondary: #f0f8ff; /* Fundo secundário/suave: Azul Gelo */
+            --bg-card: #ffffff;
+            --text-primary: #1e293b;
+            --text-secondary: #475569; /* Levemente mais escuro para melhor contraste */
+            --text-muted: #94a3b8;
+            --border-color: #d1e5f0; /* Borda mais suave */
+            --shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.04); /* Sombra mais sutil */
+            --shadow-lg: 0 10px 20px -5px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.08);
+            --radius: 12px;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .dark-mode {
+            /* Paleta Aquática Aprimorada (Escuro) */
+            --primary-color: #48bfe3; /* Azul Claro Vibrante */
+            --primary-dark: #0077b6; /* Azul Oceano */
+            --secondary-color: #94a3b8;
+            --bg-color: #0a192f; /* Fundo principal: Azul Petróleo Escuro */
+            --bg-secondary: #09131f; /* Fundo secundário/suave: Azul Meia-Noite */
+            --bg-card: #142d4a; /* Cartões: Azul Meia-Noite */
+            --text-primary: #e3f2fd; /* Branco Frio */
+            --text-secondary: #b0bec5; /* Cinza Claro Suave */
+            --text-muted: #607d8b;
+            --border-color: #2c4a6a; /* Borda escura suave */
+            --shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+            --shadow-lg: 0 10px 20px -5px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.4);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            transition: var(--transition);
+        }
+
+        .app-container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        .header {
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1rem 2rem;
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            /* Adicionando um leve gradiente na parte inferior do header para destacar */
+            border-image: linear-gradient(to right, transparent, var(--border-color) 10%, var(--border-color) 90%, transparent) 1;
+            border-bottom: 1px solid transparent;
+            border-image-slice: 1;
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1.5rem;
+            font-weight: 800; /* Mais ousado */
+            color: var(--primary-color);
+            letter-spacing: -0.5px;
+        }
+
+        .logo i {
+            font-size: 2rem;
+            color: var(--primary-color); /* Garante que o ícone tenha a cor primária */
+        }
+
+        /* Ajuste de layout nos Updates */
+        .updates-grid {
+            display: grid; /* Mudei para grid para organização mais limpa em colunas (quando necessário) */
+            grid-template-columns: 1fr;
+            gap: 0.5rem; /* Espaçamento menor */
+        }
+
+        .update-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.25rem 0; /* Mais compacto */
+            border-bottom: 0.1px solid var(--border-color);
+        }
+
+        .update-item:last-child {
+            border-bottom: none;
+        }
+
+        .update-param {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .update-date {
+            font-size: 0.75rem; /* Um pouco menor */
+            color: var(--text-primary);
+            font-weight: 600;
+            background: var(--bg-secondary);
+            padding: 0.2rem 0.6rem; /* Ajuste no padding */
+            border-radius: 4px; /* Raio menor */
+            min-width: 70px; /* Largura mínima menor */
+            text-align: center;
+            border: 1px solid var(--border-color); /* Borda mais visível */
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05); /* Sombra interna sutil */
+        }
+
+        .controls {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        /* ========== NOVOS ESTILOS PARA SELEÇÃO DE AGRUPAMENTO (Melhorias no visual) ========== */
+        .grouping-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 1rem; /* Aumentei um pouco o gap */
+            margin-top: 1rem;
+        }
+
+        .group-card {
+            background: var(--bg-card); /* Fundo branco/escuro para contraste */
+            border: 2px solid var(--border-color);
+            border-radius: var(--radius);
+            padding: 1rem;
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            position: relative;
+            box-shadow: var(--shadow); /* Adiciona sombra para flutuação */
+        }
+
+        .group-card:hover {
+            border-color: var(--primary-color);
+            transform: translateY(-4px); /* Efeito de "levantamento" mais pronunciado */
+            box-shadow: var(--shadow-lg);
+        }
+
+        .group-card.active {
+            border-color: var(--primary-color);
+            /* Gradiente mais suave e com a cor primária */
+            background: linear-gradient(135deg, var(--primary-color) 5%, rgba(0, 119, 182, 0.05) 100%);
+        }
+
+        .group-icon {
+            width: 2.75rem; /* Ícone um pouco maior */
+            height: 2.75rem;
+            border-radius: 50%;
+            background: var(--primary-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.1rem;
+            box-shadow: 0 2px 5px rgba(0, 119, 182, 0.3); /* Sombra no ícone */
+        }
+
+        .group-card.active .group-icon {
+            background: var(--primary-dark);
+        }
+
+        .group-content {
+            flex: 1;
+        }
+
+        .group-title {
+            font-weight: 700; /* Título mais forte */
+            color: var(--text-primary);
+            font-size: 0.95rem; /* Um pouco maior */
+            margin-bottom: 0.15rem;
+        }
+
+        .group-desc {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .group-check {
+            opacity: 0;
+            color: var(--primary-color);
+            transition: var(--transition);
+            font-size: 1.2rem;
+        }
+
+        .group-card.active .group-check {
+            opacity: 1;
+            color: var(--primary-dark); /* Cor escura do primário para contraste no gradiente */
+            transform: scale(1.1);
+        }
+
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: var(--radius);
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+            text-transform: uppercase; /* Mais profissional */
+            letter-spacing: 0.5px;
+        }
+
+        .btn-primary {
+            background: var(--primary-color);
+            color: white;
+            box-shadow: 0 4px 10px rgba(0, 119, 182, 0.3);
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 2px solid var(--border-color);
+            color: var(--text-primary);
+        }
+
+        .btn-outline:hover {
+            border-color: var(--primary-color);
+            color: var(--primary-color);
+            background: var(--bg-secondary);
+        }
+
+        .theme-toggle {
+            background: var(--bg-secondary);
+            border: 2px solid var(--border-color); /* Borda sutil */
+            border-radius: 50%;
+            width: 2.5rem; /* Um pouco menor para ser mais discreto */
+            height: 2.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: var(--transition);
+            color: var(--text-secondary); /* Cor secundária padrão */
+        }
+
+        .theme-toggle:hover {
+            background: var(--primary-color);
+            color: white;
+            transform: rotate(15deg) scale(1.1); /* Efeito mais visível */
+        }
+
+        /* Main Content */
+        .main-content {
+            max-width: 100%; /* 1400px;  Definindo largura máxima para o conteúdo */
+            margin: 0 auto;
+            padding: 2rem;
+            width: 100%;
+            flex: 1;
+        }
+
+        .dashboard {
+            display: grid;
+            grid-template-columns: 320px 1fr; /* Sidebar um pouco mais estreito */
+            gap: 2rem;
+            min-height: 600px;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            box-shadow: var(--shadow);
+            height: fit-content;
+            position: sticky;
+            top: 100px;
+            border: 1px solid var(--border-color); /* Borda para definição */
+        }
+
+        .filters-section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.25rem; /* Um pouco maior */
+            font-weight: 700;
+            margin-bottom: 1.25rem; /* Mais espaçamento */
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem; /* Mais espaçamento */
+        }
+
+        .filter-group {
+            margin-bottom: 1.25rem;
+        }
+
+        .filter-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600; /* Mais ousado */
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+        }
+
+        .select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid var(--border-color);
+            border-radius: var(--radius);
+            background: var(--bg-secondary); /* Usa cor secundária para destaque */
+            color: var(--text-primary);
+            font-size: 0.875rem;
+            transition: var(--transition);
+            appearance: none; /* Remove estilo padrão para melhor controle visual */
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%2364748b'%3E%3Cpath fill-rule='evenodd' d='M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.25 4.25a.75.75 0 01-1.06 0L5.21 8.27a.75.75 0 01.02-1.06z' clip-rule='evenodd' /%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 0.75rem center;
+            background-size: 1.5em 1.5em;
+        }
+
+        .select:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(0, 119, 182, 0.2); /* Sombra mais aquática */
+        }
+
+        .stations-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem; /* Menor espaçamento entre cartões */
+            max-height: 550px; /* Altura ajustada */
+            overflow-y: auto;
+        }
+
+        .station-card {
+            background: var(--bg-card); /* Fundo branco/escuro */
+            border: 2px solid var(--border-color);
+            border-radius: var(--radius);
+            padding: 1rem 1.25rem; /* Ajuste padding */
+            cursor: pointer;
+            transition: var(--transition);
+            position: relative;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .station-card:hover {
+            border-color: var(--primary-color);
+            transform: translateY(-1px);
+            box-shadow: var(--shadow);
+        }
+
+        .station-card.active {
+            border-color: var(--primary-color);
+            background: linear-gradient(135deg, var(--primary-color) 5%, rgba(0, 119, 182, 0.05) 100%);
+        }
+
+        .station-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.5rem; /* Mais compacto */
+        }
+
+        .station-name {
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.25rem;
+            font-size: 1rem;
+        }
+
+        .station-code {
+            font-size: 0.7rem; /* Um pouco menor */
+            color: var(--text-primary);
+            background: var(--bg-secondary);
+            padding: 0.15rem 0.5rem;
+            border-radius: 4px;
+            font-weight: 600;
+            border: 1px solid var(--border-color);
+        }
+
+        .station-info {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .station-info div {
+            margin-bottom: 0.15rem; /* Mais compacto */
+        }
+
+        /* Content Area */
+        .content-area {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            min-height: 400px;
+        }
+
+        .station-details {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            padding: 2rem;
+            box-shadow: var(--shadow);
+            display: none;
+            border: 1px solid var(--border-color);
+        }
+
+        .station-header-details {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .station-title {
+            font-size: 1.75rem; /* Título maior */
+            font-weight: 800;
+            color: var(--text-primary);
+        }
+
+        .quick-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem; /* Aumento do gap */
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: var(--bg-secondary); /* Fundo secundário para destaque */
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            text-align: center;
+            border-left: 5px solid var(--primary-color); /* Borda mais grossa */
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+
+        .stat-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .stat-value {
+            font-size: 2.25rem; /* Valor maior */
+            font-weight: 800;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem; /* Mais compacto */
+            line-height: 1;
+        }
+
+        .stat-label {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 1px; /* Mais espaçado */
+            font-weight: 600;
+        }
+
+        .date-filter {
+            background: var(--bg-secondary);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border: 1px solid var(--border-color);
+        }
+
+        .date-range {
+            display: grid;
+            grid-template-columns: 1fr 1fr auto auto;
+            gap: 1rem;
+            align-items: end;
+        }
+
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .input-label {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+        }
+
+        .input {
+            padding: 0.75rem;
+            border: 2px solid var(--border-color);
+            border-radius: var(--radius);
+            background: var(--bg-card); /* Fundo branco/escuro para input */
+            color: var(--text-primary);
+            transition: var(--transition);
+            font-size: 0.9rem;
+        }
+
+        .input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(0, 119, 182, 0.2);
+        }
+
+        .tabs {
+            display: flex;
+            gap: 1rem; /* Aumento do gap */
+            margin-bottom: 2rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .tab {
+            padding: 1rem 1.5rem; /* Ajuste no padding */
+            background: transparent;
+            border: none;
+            color: var(--text-secondary);
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            border-bottom: 3px solid transparent; /* Borda mais grossa */
+            margin-bottom: -3px;
+            width: auto; /* Deixando a largura flexível */
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .tab.active {
+            color: var(--primary-color);
+            border-bottom-color: var(--primary-color);
+        }
+
+        .tab:hover:not(.active) {
+            color: var(--primary-dark);
+        }
+
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .table-container {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            margin-bottom: 2rem;
+            max-height: 600px;
+            overflow-y: auto;
+            border: 1px solid var(--border-color);
+        }
+
+        .table-header {
+            background: var(--bg-secondary);
+            padding: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .table-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: var(--bg-secondary);
+            padding: 1rem;
+            text-align: left;
+            font-weight: 700;
+            color: var(--text-primary);
+            font-size: 0.8rem; /* Títulos menores */
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            color: var(--text-primary);
+            font-size: 0.9rem;
+        }
+
+        tr:hover {
+            background: var(--bg-secondary);
+        }
+
+        .chart-controls {
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background: var(--bg-secondary);
+            border-radius: var(--radius);
+            border: 1px solid var(--border-color);
+        }
+
+        /* Gráficos em linha */
+        .charts-vertical {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .chart-container {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            box-shadow: var(--shadow);
+            height: 400px; /* Altura um pouco maior */
+            border: 1px solid var(--border-color);
+        }
+
+        .chart-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .chart-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .chart-wrapper {
+            position: relative;
+            height: 320px;
+        }
+
+        /* Footer */
+        /* ========== FOOTER MELHORADO (Estilos mantidos, mas com nova paleta) ========== */
+        .footer {
+            background: var(--bg-card);
+            border-top: 1px solid var(--border-color);
+            padding: 3rem 2rem 1.5rem;
+            margin-top: auto;
+            position: relative;
+            width: 100%;
+            box-shadow: 0 -4px 10px -2px rgba(0, 0, 0, 0.05); /* Sombra superior sutil */
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .footer-main {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 3rem;
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .footer-brand {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--primary-color);
+        }
+
+        .footer-logo i {
+            font-size: 2rem;
+        }
+
+        .footer-description {
+            color: var(--text-secondary);
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        .footer-stats {
+            display: flex;
+            gap: 1.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .stat {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+        }
+
+        .stat i {
+            color: var(--primary-color);
+            font-size: 0.875rem;
+        }
+
+        .footer-links {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .footer-section h4 {
+            color: var(--text-primary);
+            font-size: 1.05rem; /* Um pouco maior */
+            font-weight: 700;
+            margin-bottom: 1rem;
+            position: relative;
+        }
+
+        .footer-section h4::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 30px;
+            height: 3px; /* Borda mais grossa */
+            background: var(--primary-color);
+            border-radius: 2px;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem; /* Mais espaçamento */
+        }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem; /* Um pouco maior */
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .footer-section a:hover {
+            color: var(--primary-color);
+            transform: translateX(5px);
+        }
+
+        .footer-section a::before {
+            content: '›';
+            font-weight: bold;
+            color: var(--primary-color); /* Cor primária para o marcador */
+            transition: var(--transition);
+        }
+
+        .footer-section a:hover::before {
+            color: var(--primary-dark);
+        }
+
+        .footer-section a::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: -100%;
+            width: 100%;
+            height: 1px;
+            background: var(--primary-color);
+            transition: var(--transition);
+        }
+
+        .footer-section a:hover::after {
+            left: 0;
+        }
+
+        .footer-bottom {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .footer-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        .footer-credits,
+        .footer-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .footer-credits p,
+        .footer-meta p {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            margin: 0;
+        }
+
+        .footer-credits i,
+        .footer-meta i {
+            color: var(--primary-color);
+            font-size: 0.85rem;
+            width: 16px;
+            text-align: center;
+        }
+
+        .footer-credits strong {
+            color: var(--text-primary);
+        }
+
+        .footer-copyright {
+            text-align: center;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .footer-copyright p {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            margin: 0;
+        }
+
+        .copyright-text {
+            color: var(--text-secondary);
+        }
+
+        /* Animações e Scrollbar - Mantidos */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .footer {
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        .loading {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+
+        .skeleton {
+            background: linear-gradient(90deg, var(--border-color) 25%, var(--bg-secondary) 50%, var(--border-color) 75%);
+            background-size: 200% 100%;
+            animation: loading 1.5s infinite;
+            border-radius: 4px;
+        }
+
+        @keyframes loading {
+            0% {
+                background-position: 200% 0;
+            }
+            100% {
+                background-position: -200% 0;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .table-container::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+
+        .table-container::-webkit-scrollbar-track {
+            background: var(--bg-secondary);
+            border-radius: 4px;
+        }
+
+        .table-container::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 4px;
+        }
+
+        .table-container::-webkit-scrollbar-thumb:hover {
+            background: var(--text-muted);
+        }
+
+        .stations-grid::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .stations-grid::-webkit-scrollbar-track {
+            background: var(--bg-secondary);
+            border-radius: 3px;
+        }
+
+        .stations-grid::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 3px;
+        }
+
+        .stations-grid::-webkit-scrollbar-thumb:hover {
+            background: var(--text-muted);
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .dashboard {
+                grid-template-columns: 1fr;
+            }
+
+            .sidebar {
+                position: static;
+            }
+
+            .date-range {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .chart-container {
+                height: 350px;
+            }
+
+            .grouping-cards {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .footer-main {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .footer-links {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .main-content {
+                padding: 1rem;
+            }
+
+            .station-header-details {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .date-range {
+                grid-template-columns: 1fr;
+            }
+
+            .chart-container {
+                height: 280px;
+            }
+
+            .tabs {
+                flex-direction: column;
+                gap: 0;
+            }
+
+            .tab {
+                width: 100%;
+                text-align: center;
+            }
+
+            .grouping-cards {
+                grid-template-columns: 1fr;
+            }
+
+            .footer {
+                padding: 2rem 1rem 1rem;
+            }
+
+            .footer-links {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .footer-stats {
+                flex-direction: column;
+                gap: 0.75rem;
+            }
+
+            .footer-info {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .footer-logo {
+                font-size: 1.25rem;
+            }
+
+            .footer-logo i {
+                font-size: 1.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-water"></i>
+                    <span>HydroMonitor</span>
+                </div>
+                <div class="controls">
+                    <button class="btn btn-primary" onclick="exportarParaCSV()">
+                        <i class="fas fa-file-export"></i>
+                        Exportar Dados
+                    </button>
+                    <button class="theme-toggle" onclick="toggleTheme()" title="Alternar tema">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="dashboard">
+                <!-- Sidebar -->
+                <aside class="sidebar">
+                    <div class="filters-section">
+                        <h3 class="section-title">
+                            <i class="fas fa-filter"></i>
+                            Filtros
+                        </h3>
+                        <div class="filter-group">
+                            <label class="filter-label">Rio</label>
+                            <select id="selectRio" class="select" onchange="filtrarEstacoes()">
+                                <option value="">Todos os Rios</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label class="filter-label">Bacia Hidrográfica</label>
+                            <select id="selectBacia" class="select" onchange="filtrarEstacoes()">
+                                <option value="">Todas as Bacias</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="stations-section">
+                        <h3 class="section-title">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Estações
+                            <span id="stations-count" class="station-code"></span>
+                        </h3>
+                        <div id="estacoes" class="stations-grid"></div>
+                    </div>
+                </aside>
+
+                <!-- Content Area -->
+                <div class="content-area">
+                    <section id="detalhes-estacao" class="station-details">
+                        <!-- Station Header -->
+                        <div class="station-header-details">
+                            <div>
+                                <h2 class="station-title" id="nome-estacao">Nome da Estação</h2>
+                                <div class="station-info" id="station-details"></div>
+                            </div>
+                            <div class="export-buttons">
+                                <button class="btn btn-primary" onclick="exportarParaCSV()">
+                                    <i class="fas fa-file-export"></i>
+                                    Exportar Dados
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Quick Stats -->
+                        <div class="quick-stats">
+                            <div class="stat-card">
+                                <div class="stat-value" id="stat-nivel">--</div>
+                                <div class="stat-label">Nível Atual (cm)</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-value" id="stat-vazao">--</div>
+                                <div class="stat-label">Vazão (m³/s)</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-value" id="stat-chuva">--</div>
+                                <div class="stat-label">Chuva (mm)</div>
+                            </div>
+                            <div class="stat-card" style="text-align: left;">
+                                <div class="stat-label" style="margin-bottom: 1rem;">Últimas Atualizações</div>
+                                <div class="updates-grid">
+                                    <div class="update-item">
+                                        <span class="update-param">Nível</span>
+                                        <!-- Mudei o ID para update-date-nivel -->
+                                        <span class="update-date" id="update-date-nivel">--</span>
+                                    </div>
+                                    <div class="update-item">
+                                        <span class="update-param">Vazão</span>
+                                        <!-- Mudei o ID para update-date-vazao -->
+                                        <span class="update-date" id="update-date-vazao">--</span>
+                                    </div>
+                                    <div class="update-item">
+                                        <span class="update-param">Chuva</span>
+                                        <!-- Mudei o ID para update-date-chuva -->
+                                        <span class="update-date" id="update-date-chuva">--</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Date Filter -->
+                        <div class="date-filter">
+                            <h4 class="section-title">
+                                <i class="fas fa-calendar-alt"></i>
+                                Período de Análise
+                            </h4>
+                            <div class="date-range">
+                                <div class="input-group">
+                                    <label class="input-label">Data Início</label>
+                                    <input type="date" id="dataInicio" class="input">
+                                </div>
+                                <div class="input-group">
+                                    <label class="input-label">Data Fim</label>
+                                    <input type="date" id="dataFim" class="input">
+                                </div>
+                                <button class="btn btn-primary" onclick="aplicarFiltroDatas()">
+                                    <i class="fas fa-check"></i>
+                                    Aplicar
+                                </button>
+                                <button class="btn btn-outline" onclick="limparFiltroDatas()">
+                                    <i class="fas fa-times"></i>
+                                    Limpar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Tabs -->
+                        <div class="tabs">
+                            <button class="tab active" onclick="switchTab('tabela')">
+                                <i class="fas fa-table"></i>
+                                Tabela de Dados
+                            </button>
+                            <button class="tab" onclick="switchTab('graficos')">
+                                <i class="fas fa-chart-line"></i>
+                                Gráficos
+                            </button>
+                        </div>
+
+                        <!-- Table Tab -->
+                        <div id="tab-tabela" class="tab-content active">
+                            <div class="table-container">
+                                <div class="table-header">
+                                    <h3 class="table-title">Dados Hidrológicos</h3>
+                                    <div class="table-actions">
+                                        <span id="table-count" class="station-code">0 registros</span>
+                                    </div>
+                                </div>
+                                <div id="tabela-dados"></div>
+                            </div>
+                        </div>
+
+                        <!-- Charts Tab -->
+                        <div id="tab-graficos" class="tab-content">
+                            <!-- SELEÇÃO DE AGRUPAMENTO - CARDS INTERATIVOS -->
+                            <div class="chart-controls">
+                                <label class="input-label">
+                                    <i class="fas fa-chart-bar"></i>
+                                    Agrupar dados por:
+                                </label>
+                                <div class="grouping-cards">
+                                    <div class="group-card" data-value="quinze_minutos" onclick="selecionarAgrupamento('quinze_minutos')">
+                                        <div class="group-icon">
+                                            <i class="fas fa-clock"></i>
+                                        </div>
+                                        <div class="group-content">
+                                            <div class="group-title">15 Minutos</div>
+                                            <div class="group-desc">Dados em tempo real</div>
+                                        </div>
+                                        <div class="group-check">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="group-card active" data-value="hora" onclick="selecionarAgrupamento('hora')">
+                                        <div class="group-icon">
+                                            <i class="fas fa-hourglass-half"></i>
+                                        </div>
+                                        <div class="group-content">
+                                            <div class="group-title">Hora</div>
+                                            <div class="group-desc">Média horária</div>
+                                        </div>
+                                        <div class="group-check">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="group-card" data-value="dia" onclick="selecionarAgrupamento('dia')">
+                                        <div class="group-icon">
+                                            <i class="fas fa-calendar-day"></i>
+                                        </div>
+                                        <div class="group-content">
+                                            <div class="group-title">Dia</div>
+                                            <div class="group-desc">Média diária</div>
+                                        </div>
+                                        <div class="group-check">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="group-card" data-value="mes" onclick="selecionarAgrupamento('mes')">
+                                        <div class="group-icon">
+                                            <i class="fas fa-calendar-alt"></i>
+                                        </div>
+                                        <div class="group-content">
+                                            <div class="group-title">Mês</div>
+                                            <div class="group-desc">Média mensal</div>
+                                        </div>
+                                        <div class="group-check">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Gráficos em linha vertical -->
+                            <div class="charts-vertical">
+                                <div class="chart-container">
+                                    <div class="chart-header">
+                                        <h3 class="chart-title">Variação do Nível</h3>
+                                    </div>
+                                    <div class="chart-wrapper">
+                                        <canvas id="graficoNivel"></canvas>
+                                    </div>
+                                </div>
+                                <div class="chart-container">
+                                    <div class="chart-header">
+                                        <h3 class="chart-title">Variação da Vazão</h3>
+                                    </div>
+                                    <div class="chart-wrapper">
+                                        <canvas id="graficoVazao"></canvas>
+                                    </div>
+                                </div>
+                                <div class="chart-container">
+                                    <div class="chart-header">
+                                        <h3 class="chart-title">Precipitação Acumulada</h3>
+                                    </div>
+                                    <div class="chart-wrapper">
+                                        <canvas id="graficoChuva"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Empty State -->
+                    <div id="empty-state" class="station-details" style="display: flex; align-items: center; justify-content: center; text-align: center; min-height: 400px;">
+                        <div>
+                            <i class="fas fa-water" style="font-size: 4rem; color: var(--text-muted); margin-bottom: 1rem;"></i>
+                            <h3 style="color: var(--text-secondary); margin-bottom: 0.5rem;">Selecione uma Estação</h3>
+                            <p style="color: var(--text-muted);">Escolha uma estação no menu lateral para visualizar os dados hidrológicos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <!-- Footer Melhorado -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <i class="fas fa-water"></i>
+                            <span>HydroMonitor</span>
+                        </div>
+                        <p class="footer-description">
+                            Sistema Inteligente de Monitoramento Ambiental e Hidrológico do Maranhão
+                        </p>
+                        <div class="footer-stats">
+                            <div class="stat">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span id="footer-stations-count">0</span> estações
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-database"></i>
+                                Dados em tempo real
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <div class="footer-section">
+                            <h4>Sistema</h4>
+                            <ul>
+                                <li><a href="#" onclick="switchTab('tabela')">Tabela de Dados</a></li>
+                                <li><a href="#" onclick="switchTab('graficos')">Gráficos</a></li>
+                                <li><a href="#" onclick="exportarParaCSV()">Exportar Dados</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Suporte</h4>
+                            <ul>
+                                <li><a href="#" onclick="mostrarSobre()">Sobre o Sistema</a></li>
+                                <li><a href="#" onclick="mostrarAjuda()">Ajuda</a></li>
+                                <li><a href="#" onclick="mostrarContato()">Contato</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Recursos</h4>
+                            <ul>
+                                <li><a href="#" onclick="mostrarAPI()">API</a></li>
+                                <li><a href="#" onclick="mostrarDocumentacao()">Documentação</a></li>
+                                <li><a href="#" onclick="mostrarStatus()">Status do Sistema</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <div class="footer-info">
+                        <div class="footer-credits">
+                            <p>
+                                <i class="fas fa-code"></i>
+                                Desenvolvido por <strong>Igor Carlos Cunha Morim</strong>
+                            </p>
+                            <p>
+                                <i class="fas fa-building"></i>
+                                Centro de Prevenção a Desastres Naturais - CPDAm
+                            </p>
+                        </div>
+                        <div class="footer-meta">
+                            <p>
+                                <i class="fas fa-sync-alt"></i>
+                                Atualizado em: <span id="footer-update-time">--</span>
+                            </p>
+                            <p>
+                                <i class="fas fa-shield-alt"></i>
+                                Sistema SIMA/MA v2.0
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-copyright">
+                        <p>
+                            &copy; 2024 Sistema de Monitoramento Hidrológico - SIMA/MA. 
+                            <span class="copyright-text">Todos os direitos reservados.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Incluir o app.js -->
+    <script src="app.js"></script>
+</body>
+</html>
